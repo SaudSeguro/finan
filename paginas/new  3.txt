@@ -1,0 +1,2730 @@
+
+<!DOCTYPE html>
+<html dir="ltr" class="ltr" lang="pt-BR">   
+	<head>
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- Mobile viewport optimized: h5bp.com/viewport -->
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Farlap Shirt - Ruby Wines - Desktops</title>
+	<meta name="description" content="Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+	Morbi accumsan ipsum velit. Nam nec te" />
+	<meta name="keywords" content="Farlap Shirt - Ruby Wines" />
+	<meta name="robots" content="INDEX,FOLLOW" />
+	<link rel="icon" href="http://demoleotheme.com/superstore/skin/frontend/default/ves_superstore/favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" href="http://demoleotheme.com/superstore/skin/frontend/default/ves_superstore/favicon.ico" type="image/x-icon" />
+	<base  />
+	<!--[if lt IE 7]>
+	<script type="text/javascript">
+	//<![CDATA[
+	    var BLANK_URL = 'http://demoleotheme.com/superstore/js/blank.html';
+	    var BLANK_IMG = 'http://demoleotheme.com/superstore/js/spacer.gif';
+	//]]>
+	</script>
+	<![endif]-->
+	<script type="text/javascript">
+		var ajaxCart = true;
+	</script>
+	<script type="text/javascript">
+		var minicart_url = "vestempcp/minicart/index/index.html";
+	</script>
+	<link rel="stylesheet" type="text/css" /superstore/f="../js/ves_layerslider/lush/css/lush.animations.min.css" />
+	<link rel="stylesheet" type="text/css" href="/superstore/js/ves_layerslider/lush/css/lush.min.css" />
+	<link rel="stylesheet" type="text/css" href="/superstore/js/ves_layerslider/lush/css/lush.items.min.css" />
+	<link rel="stylesheet" type="text/css" href="/superstore/js/calendar/calendar-win2k-1.css" />
+	<link rel="stylesheet" type="text/css" href="/superstore/js/venustheme/ves_tempcp/jquery/ui/themes/ui-lightness/jquery-ui-1.8.16.custom.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/js/venustheme/ves_tempcp/jquery/colorbox/colorbox.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/css/bootstrap.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/css/styles.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/css/styles_produto.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/css/widgets.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/ves_autosearch/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/ves_base/animate.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/ves_base/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/ves_blog/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/ves_brand/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/ves_layerslider/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/ves_megamenu/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/ves_productcarousel/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/ves_productcarousel2/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/venustheme/ves_tempcp/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/venustheme/ves_tempcp/owlcarousel/owl.carousel.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/venustheme/ves_tempcp/lib/perfect-scrollbar/css/perfect-scrollbar.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/ves_verticalmenu/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/css/custom-font.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/base/default/ves_deals/style.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/css/font-awesome.min.css" media="all" />
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/css/print.css" media="print" />
+	<script type="text/javascript" src="/superstore/js/prototype/prototype.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/conflict.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/ui/jquery-ui-1.8.16.custom.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/ui/external/jquery.cookie.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/lib/ccard.js"></script>
+	<script type="text/javascript" src="/superstore/js/prototype/validation.js"></script>
+	<script type="text/javascript" src="/superstore/js/scriptaculous/builder.js"></script>
+	<script type="text/javascript" src="/superstore/js/scriptaculous/effects.js"></script>
+	<script type="text/javascript" src="/superstore/js/scriptaculous/dragdrop.js"></script>
+	<script type="text/javascript" src="/superstore/js/scriptaculous/controls.js"></script>
+	<script type="text/javascript" src="/superstore/js/scriptaculous/slider.js"></script>
+	<script type="text/javascript" src="/superstore/js/varien/js.js"></script>
+	<script type="text/javascript" src="/superstore/js/varien/form.js"></script>
+	<script type="text/javascript" src="/superstore/js/varien/menu.js"></script>
+	<script type="text/javascript" src="/superstore/js/mage/translate.js"></script>
+	<script type="text/javascript" src="/superstore/js/mage/cookies.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_base/jquery/holder.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_base/animate/animate.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_base/jquery/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_base/front.common.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_layerslider/lush/js/jquery.easing.1.3.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_layerslider/lush/js/jquery.lush.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_parallax/jquery.parallax-1.1.3.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/varien/product.js"></script>
+	<script type="text/javascript" src="/superstore/js/varien/configurable.js"></script>
+	<script type="text/javascript" src="/superstore/js/calendar/calendar.js"></script>
+	<script type="text/javascript" src="/superstore/js/calendar/calendar-setup.js"></script>
+	<script type="text/javascript" src="/superstore/js/ves_deals/countdown.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/colorbox/jquery.colorbox-min.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/touchSwipe.min.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/common.js"></script>
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/tabs.js"></script>
+	<script type="text/javascript" src="/superstore/skin/frontend/default/ves_superstore/javascript/common.js"></script>
+	<!--[if lt IE 7]>
+	<script type="text/javascript" src="http://demoleotheme.com/superstore/js/lib/ds-sleight.js"></script>
+	<script type="text/javascript" src="http://demoleotheme.com/superstore/skin/frontend/base/default/js/ie6.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+	<link rel="stylesheet" type="text/css" href="http://demoleotheme.com/superstore/skin/frontend/default/ves_superstore/css/styles-ie.css" media="all" />
+	<![endif]-->
+	<!--[if gt IE 6]>
+	<link rel="stylesheet" type="text/css" href="http://demoleotheme.com/superstore/skin/frontend/default/ves_superstore/css/styles-iefont.css" media="all" />
+	<![endif]-->
+
+	<script type="text/javascript">
+	//<![CDATA[
+	Mage.Cookies.path     = '/superstore';
+	Mage.Cookies.domain   = '.demoleotheme.com';
+	//]]>
+	</script>
+
+	<script type="text/javascript">
+	//<![CDATA[
+	optionalZipCountries = ["HK","IE","MO","PA"];
+	//]]>
+	</script>
+
+
+	<script type="text/javascript">//<![CDATA[
+	        var Translator = new Translate([]);
+	        //]]></script>
+
+
+		
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"/>
+	<style type="text/css">
+		body {font-family:Verdana, Geneva, sans-serif}
+
+	h1, #content h1 {font-family:"Open Sans", sans-serif}
+
+	h2,h3,h4,h5, .box-heading, .box-heading span {font-family:"Open Sans", sans-serif}
+	</style>
+
+
+	<link rel="stylesheet" type="text/css" href="/superstore/skin/frontend/default/ves_superstore/css/paneltool.css" />
+	<script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/colorpicker/js/colorpicker.js"></script>
+	<link rel="stylesheet" type="text/css" href="/superstore/js/venustheme/ves_tempcp/jquery/colorpicker/css/colorpicker.css" />
+
+	<!--link href='//fonts.googleapis.com/css?family=Roboto:400,300,100italic,100,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'-->
+
+	<!--[if lt IE 9]>
+	<script src="http://demoleotheme.com/superstore/js/venustheme/ves_tempcp/html5.js"></script>
+	<script src="http://demoleotheme.com/superstore/js/venustheme/ves_tempcp/respond.min.js"></script>
+	<![endif]-->
+
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>	
+	<script type="text/javascript" src="//cdn.vialoja.com.br/static/js/common.js"></script>	
+	<script type="text/javascript" src="//cdn.vialoja.com.br/static/js/jquery.maskedinput.js?v1.3.1"></script>
+	
+	<script type="text/javascript">
+   	jQuery(function($){
+	   $("#id_cep").mask("99999-999");
+	});
+    </script>
+
+</head><body id="offcanvas-container" class="  catalog-product-view catalog-product-view product-farlap-shirt-ruby-wines categorypath-desktops-html category-desktops offcanvas-container layout-fullwidth fs13  ">    
+        <section id="page" class="offcanvas-pusher" role="main">
+            <section id="header" class="header">
+                <section id="topbar">
+					
+					<div class="container">											
+
+		
+
+		
+	<div class="settings pull-left">
+		<div class="dropdown">
+			<a data-toggle="dropdown" href="#"><i class="fa fa-gear"></i><span>Minha Loja</span><i class="fa fa-angle-down"></i></a>
+			<div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+
+				<div class="">
+					<ul>
+						<li class="selected">
+							<a href="http://painel.vialoja.com.br/admin/?auto-login-painel=pkQ9TNdGSz0%3DIKoMOzgFPlo%3D%2FHo8bXE%2Bceo%3D7d4s%2BGI7Wfw%3DYLSr8z%2B9Hxo%3D8N7H3B14qQY%3DkChucwbUQKQ%3Ds%2BX%2B7HUwooM%3DqCtn4cEBVuc%3Dh1yPWH5jH1s%3D5jpsmR%2BTMwo%3Dqt9uHDRMqZo%3Dqeq3kTE56lE%3DhF1HkYHR8H8%3D8Hx6y3fOimQ%3DUwrnV862tOU%3DWghJYwiUBb8%3DtAxGccCJ52w%3DjmuMS2XXNmQ%3D2Kp%2FeAgqD7g%3DMANBBqklu%2Fw%3DVgzEQtd51XE%3DPMcIOdzeifo%3DFd%2BmTF6pH3s%3DqPuVa%2BUQdpY%3DGVbrqCQLxac%3DlcUkgIZ0RnA%3D000214" target="_BLANK" title="Painel de Controle">Painel de Controle</a> 				
+						</li>				
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="settings pull-left" style="margin-left:6px;">
+		<div class="dropdown">
+			<a data-toggle="dropdown" href="#"><i class="fa fa-gear"></i><span>Suporte:</span><i class="fa fa-angle-down"></i></a>
+			<div class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+
+
+				<div class="currency ">
+					<ul>
+						<li class="euro">	
+							<a href="http://forum.vialoja.com.br" title="Fórum de Ajuda" target="_blank"> 
+							Fórum
+							</a>			
+						</li>
+						<li class="dollar">	
+							<a href="http://painel.vialoja.com.br/suporte/ticket/clientearea" title="Ticket de Suporte" target="_blank"> 
+							Ticket				
+							</a>			
+						</li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+	
+	<div class="topLinks pull-right">
+		<div class="quick-access">
+			<div class="quickaccess-toggle hidden-lg hidden-md">
+				<i class="fa fa-list"></i>                                                          
+			</div>
+			<div class="inner-toggle">
+				<ul class="links">
+					<li ><a href="/cliente/minha-lista-de-desejos" rel="nofollow" title="Minha Lista de Desejos" ><i class="fa fa-heart"></i> Minha Lista de Desejos</a></li>
+					
+										<li class=" last" ><a href="/cliente/conta/logoff" title="Sair"><i class="fa fa-lock"></i> Sair</a></li>	
+										
+					<li class="first" ><a href="/cliente/conta" rel="nofollow" title="Minha Conta"><i class="fa fa-user"></i> Minha Conta</a></li>
+					<li ><a href="/checkout" rel="nofollow" title="Meus Pedidos" class="top-link-checkout"><i class="fa fa-share"></i> Meus Pedidos</a></li>
+					<li ><a href="/checkout/carrinho" rel="nofollow" title="Meu Carrinho" class="top-link-cart"><i class="fa fa-shopping-cart"></i> Meu Carrinho</a></li>
+					<li >
+						
+						<span class="welcome-msg"> <i class="fa fa-child"></i> Olá, William Duarte</span>
+							
+							
+
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+                    
+					
+                </section>
+				
+                <section id="header-main">
+				
+					<div class="container">
+	<div class="header-wrap row">
+
+		<div class="col-lg-3 col-md-3 col-sm-5 col-xs-12">
+			<div id="logo-theme" class="logo-store logo" style="font-size:36px;"><strong class="logo-title">Tangara Fm</strong><a href="/" title="Tangara Fm" class="logo"><img src="//cdn.vialoja.com.br/5/logo/logo.png" style="max-height: 130px; max-width: 270px;" alt="Tangara Fm" /></a></div>
+		</div>
+
+		<div id="search" class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+			<div class="input-group">
+				<div class=" box search_box">
+					<form method="GET" action="/search/result/" id="search_form_1435693225">
+						<div class="filter_type category_filter pull-left">
+							<span class="fa fa-caret-down"></span>
+							<select name="category_id">
+								<option value="0">Todas as Categorias</option>
+								<option  style="background-color:#F5F5F5;" value="48">Acessórios</option>
+<option  value="49">&nbsp;&nbsp;&nbsp;Bolsas</option>
+<option  style="background-color:#F5F5F5;" value="54">Button</option>
+<option  style="background-color:#F5F5F5;" value="53">Cases</option>
+<option  style="background-color:#F5F5F5;" value="22">Categoria nova</option>
+<option  style="background-color:#F5F5F5;" value="36">honda</option>
+<option  style="background-color:#F5F5F5;" value="50">Livros</option>
+<option  value="51">&nbsp;&nbsp;&nbsp;Informática</option>
+<option  value="52">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Linux</option>
+<option  style="background-color:#F5F5F5;" value="29">Oieeeeeeeeee</option>
+<option  value="30">&nbsp;&nbsp;&nbsp;testes2sssssssss</option>
+<option  style="background-color:#F5F5F5;" value="41">Roupas</option>
+<option  value="42">&nbsp;&nbsp;&nbsp;testess</option>
+<option  style="background-color:#F5F5F5;" value="33">SACADA</option>
+<option  value="34">&nbsp;&nbsp;&nbsp;sacada 2</option>
+<option  style="background-color:#F5F5F5;" value="35">sacada 3</option>
+<option  style="background-color:#F5F5F5;" value="44">sssssss</option>
+<option  style="background-color:#F5F5F5;" value="47">substaatni</option>
+<option  style="background-color:#F5F5F5;" value="45">teste</option>
+<option  style="background-color:#F5F5F5;" value="1">teste1</option>
+<option  value="28">&nbsp;&nbsp;&nbsp;ailto celestino</option>
+<option  value="43">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;marley</option>
+<option  value="23">&nbsp;&nbsp;&nbsp;categoria nova 2</option>
+<option  value="31">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;589sessss</option>
+<option  value="24">&nbsp;&nbsp;&nbsp;guia local</option>
+<option  value="25">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;categoria 50</option>
+<option  value="26">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;589</option>
+<option  value="46">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;coritiasdfds</option>
+							</select>
+						</div>
+						<div id="search1435693225" class="search pull-left">
+							<input type="text" name="q" autocomplete="off" placeholder="Pesquisar em toda a loja..." value="" class="input-search ">
+							<span class="button-search fa fa-search"></span>
+						</div>
+					</form>
+					<div class="clear clr"></div>
+				</div>
+				<script type="text/javascript">
+					(function($) {
+						$("#search1435693225 span:first").mouseover(function(){
+							var $this = $(this);
+							var $input = $(".category_filter select[name=\"category_id\"]"); 
+							if ($input.is("select") && !$('.lfClon').length) {
+								var $clon = $input.clone();
+								var getRules = function($ele){ return {
+									position: 'absolute',
+									left: $ele.offset().left,
+									top: $ele.offset().top,
+									width: $ele.outerWidth(),
+									height: $ele.outerHeight(),
+									background: '#f9f9f9',
+									fontSize: '13px',
+									color: '#8c8c8c',
+									opacity: 0,
+									margin: 0,
+									padding: 0
+								};};
+								var rules = getRules($input);
+								$clon.css(rules);
+								$clon.on("mousedown.lf", function(){
+									$clon.css({
+										marginLeft: $input.offset().left - rules.left,
+										marginTop: $input.offset().top - rules.top,
+									});
+									$clon.on('change blur', function(){
+										$input.val($clon.val()).show();
+										$clon.remove();
+									});
+									$clon.off('.lf');
+								});
+								$clon.on("mouseout.lf", function(){
+									$(this).remove();
+								});
+								$clon.prop({id:'',className:'lfClon'});
+								$clon.appendTo('body');
+							}
+						});
+					
+						var selector = '#search1435693225';
+						var text_price = "Price";
+						var total = 0;
+						var show_image = true;
+						var show_price = true;
+						var search_sub_category = true;
+						var search_description = true;
+					
+						$(selector).find('.button-search').bind('click', function(){
+							url = "/search/result/";
+								 
+							var category_id = $(".category_filter select[name=\"category_id\"]").first().val();
+							if(typeof(category_id) == 'undefined')
+								category_id = 0;
+					
+							var search = $('input[name=\'q\']').val();
+							
+							if(category_id) {
+								url += '?cat=' + encodeURIComponent(category_id);
+								if (search) {
+									url += '&q=' + encodeURIComponent(search);
+								}
+							} else if(search) {
+								url += '?q=' + encodeURIComponent(search);
+							}
+							
+							location = url;
+						});
+					
+						$(selector).find('input[name=\'q\']').bind('keydown', function(e) {
+							if (e.keyCode == 13) {
+								url = "/search/result/";
+								
+								var category_id = $(".category_filter select[name=\"category_id\"]").first().val();
+								if(typeof(category_id) == 'undefined')
+									category_id = 0;
+					
+								var search = $('input[name=\'q\']').val();
+								
+								if(category_id) {
+									url += '?cat=' + encodeURIComponent(category_id);
+									if (search) {
+										url += '&q=' + encodeURIComponent(search);
+									}
+								} else if(search) {
+									url += '?q=' + encodeURIComponent(search);
+								}
+								location = url;
+							}
+						});
+						
+						$(document).ready( function(){
+							$(selector).find('input[name=\'q\']').autocomplete({
+								delay: 500,
+								position: {
+										my: "left top",
+										at: "left bottom",
+										collision: "none"
+								},
+								open: function() {
+									
+									//autocomplete.css("top", newTop);
+					
+								},
+								source: function(request, response) {
+									var category_id = $(".category_filter select[name=\"category_id\"]").first().val();
+									if(typeof(category_id) == 'undefined')
+										category_id = 0;
+									var limit = 5;
+									var text = encodeURIComponent(request.term);
+					
+									var search_sub_category = search_sub_category?'&sub_category=true':'';
+									var search_description = search_description?'&description=true':'';
+									var formkey =  $("input[name='form_key']").val();
+									if(text.length > 1){
+									
+									/*
+									$.ajax({
+										url: '/search/index/ajaxgetproduct/',
+										dataType: 'json',
+										data: 'filter_category_id='+category_id+'&limit='+limit+search_sub_category+search_description+'&filter_name='+encodeURIComponent(request.term),
+										type:'POST',
+										success: function(json) {
+											response($.map(json, function(item) {
+												if($('.vesautosearch_result')){
+													$('.vesautosearch_result').first().html("");
+												}
+												total = 0;
+												if(item.total){
+													total = item.total;
+												}
+												return {
+													price: item.price,
+													html: item.html,
+													label: item.name,
+													image: item.image,
+													link:  item.link,
+													value: item.product_id
+												}
+											}));
+										}
+									});
+									
+										*/
+									}
+								},
+								select: function(event, ui) {
+									return false;
+								},
+								focus: function(event, ui) {
+									return false;
+								}
+							})
+								$(selector).find('input[name=\'q\']').data( "autocomplete" )._renderMenu = function(ul,b){
+									var g=this;
+									$.each(b,function(c,f){g._renderItem(ul,f)});
+									var category_id = $(".category_filter select[name=\"category_id\"]").first().val();
+									if(typeof(category_id) == 'undefined')
+										category_id = 0;
+					
+									category_id = parseInt(category_id);
+									var text_view_all = 'View all %s items';
+									text_view_all = text_view_all.replace(/%s/gi, total);
+					
+									var url = "";
+									
+					
+									url += '?q=' + g.term;
+					
+									if(category_id) {
+										url += '&cat=' + encodeURIComponent(category_id);
+									}
+					
+									return $(ul).append('<li><a href="/search/result/'+url+'" onclick="window.location=this.href">'+text_view_all+'</a></li>');
+								};
+								$(selector).find('input[name=\'q\']').data( "autocomplete" )._renderItem = function( ul, item ) {
+									var html = item.html;
+					
+									var li_element = $("<li></li>").data("item.autocomplete",item).append(html).appendTo(ul);
+									
+									$(li_element).click(function(el){
+										$(selector+' input[name=\'search\']').val('');
+										if(item.link){
+											window.location = item.link.replace(/&amp;/gi,'&');
+										}
+									});
+									
+									return li_element;
+								};
+						})
+					})(jQuery);
+				</script>				
+			</div>
+		</div>
+		<div class="col-lg-3 col-md-3 col-sm-1 col-xs-12">
+			<div class="inner pull-right">
+				<div class="pull-right">
+					<div class="inner-toggle">
+						<div class="cart-top">
+							<div class="clearfix" id="cart">
+								<div class="heading hidden-sm hidden-xs">
+									<div class="cart-inner">
+										<a href="#" title="Shopping cart">
+											<i class="fa fa-shopping-cart "></i>
+											<h4>				
+												<span class="title">Carrinho de Compras</span>				
+												<span id="cart-total">0 item(s) - <span class="price">R$ 0,00</span></span>
+											</h4>
+										</a>
+									</div>
+								</div>
+								<div class="quick-access">
+									<div class="cart-inner">
+										<div class="quickaccess-toggle hidden-lg hidden-md">
+											<i class="fa fa-shopping-cart "></i>                                                      
+										</div>
+										<div class="inner-toggle">
+											<div class="content">
+												<div class=" block-cart">
+													<div class="block-content">
+														<p class="empty">Você não tem itens no seu carrinho de compras.</p>
+														<div class="actions">
+															<button type="button" title="Checkout" class="button" onclick="setLocation('/checkout/onepage/')"><span><span>Checkout</span></span></button>
+															<a class="view-cart" href="/checkout/carrinho" title="Ver carrinho">Ver carrinho</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<script type="text/javascript">
+								text_confirm_delete_item = "Tem certeza de que deseja remover este item do carrinho de compras?";
+								var text_cart_total = "%total% item(s) - %price%";
+							</script>							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>                    
+                </section>
+				
+                <section id="ves-mainnav">
+				
+					<div class="container">
+	<div class="ves-megamenu">
+		<nav id="mainmenutop" class="navbar-inverse">
+			<div class="megamenu" role="navigation">
+				<div class="navbar">
+					<a href="javascript:;" data-target=".navbar-collapse" data-toggle="collapse" class="navbar-toggle hidden-lg hidden-md" type="button">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					</a>
+					<div class="collapse navbar-collapse navbar-ex1-collapse hidden-sm hidden-xs">
+						<ul class="nav navbar-nav megamenu">
+
+							<li class=" " >
+								<a href=""><span class="menu-icon" style="background:url('/superstore/media/ves_megamenu/i/c/ico-home_1.png') no-repeat;"><span class="menu-title">Home</span></span></a>
+							</li>
+
+															
+
+																<li class="parent dropdown  aligned-left " >
+									<a class="dropdown-toggle" data-toggle="dropdown" rel="nofollow" href=""><span class="menu-title">Categorias</span><b class="caret"></b></a>
+									<div class="dropdown-menu  level1"  >
+										<div class="dropdown-menu-inner">
+											<div class="row">
+												<div class="mega-col col-sm-12"  data-colwidth="12"  data-type="menu" >
+													<div class="mega-col-inner">
+														<ul>														
+															<li class="   " ><a href="//styleshop.vialoja.com.br/categoria/29-oieeeeeeeeee.html" title="Oieeeeeeeeee"><span class="menu-title">Oieeeeeeeeee</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/30-testes2sssssssss.html" title="testes2sssssssss"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;testes2sssssssss</span></a></li>
+<ul></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/48-acessorios.html" title="Acessórios"><span class="menu-title">Acessórios</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/49-bolsas.html" title="Bolsas"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;Bolsas</span></a></li>
+<ul></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/54-button.html" title="Button"><span class="menu-title">Button</span></a></li>
+<ul></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/53-cases.html" title="Cases"><span class="menu-title">Cases</span></a></li>
+<ul></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/50-livros.html" title="Livros"><span class="menu-title">Livros</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/51-informatica.html" title="Informática"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;Informática</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/52-linux.html" title="Linux"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;Linux</span></a></li>
+<ul></ul></li></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/41-roupas.html" title="Roupas"><span class="menu-title">Roupas</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/42-testess.html" title="testess"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;testess</span></a></li>
+<ul></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/33-sacada.html" title="SACADA"><span class="menu-title">SACADA</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/34-sacada-2.html" title="sacada 2"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;sacada 2</span></a></li>
+<ul></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/44-sssssss.html" title="sssssss"><span class="menu-title">sssssss</span></a></li>
+<ul></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/35-sacada-3.html" title="sacada 3"><span class="menu-title">sacada 3</span></a></li>
+<ul></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/1-teste1.html" title="teste1"><span class="menu-title">teste1</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/23-categoria-nova-2.html" title="categoria nova 2"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;categoria nova 2</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/31-589sessss.html" title="589sessss"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;589sessss</span></a></li>
+<ul></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/24-guia-local.html" title="guia local"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;guia local</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/25-categoria-50.html" title="categoria 50"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;categoria 50</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/26-589.html" title="589"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;589</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/46-coritiasdfds.html" title="coritiasdfds"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;coritiasdfds</span></a></li>
+<ul></ul></li></ul></li></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/28-ailto-celestino.html" title="ailto celestino"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;ailto celestino</span></a></li>
+<ul><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/43-marley.html" title="marley"><span class="menu-title">&nbsp;&nbsp;&nbsp;&nbsp;marley</span></a></li>
+<ul></ul></li></ul></li></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/22-categoria-nova.html" title="Categoria nova"><span class="menu-title">Categoria nova</span></a></li>
+<ul></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/36-honda.html" title="honda"><span class="menu-title">honda</span></a></li>
+<ul></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/45-teste.html" title="teste"><span class="menu-title">teste</span></a></li>
+<ul></ul></li><li class="   " ><a href="//styleshop.vialoja.com.br/categoria/47-substaatni.html" title="substaatni"><span class="menu-title">substaatni</span></a></li>
+<ul></ul></li>															
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</li>
+								
+															
+															
+							<li class=" " >
+								<a title="Pedidos e Devoluções" href="//styleshop.vialoja.com.br/pagina/pedidos-e-devolucoes"><span class="menu-title">Pedidos e Devoluções</span></a>
+							</li>
+								
+															
+							<li class=" " >
+								<a title="Política de Privacidade" href="//styleshop.vialoja.com.br/pagina/politica-de-privacidade"><span class="menu-title">Política de Privacidade</span></a>
+							</li>
+								
+															
+							<li class=" " >
+								<a title="sdsdsdsdsd" href="//styleshop.vialoja.com.br/pagina/sdsdsdsdsd"><span class="menu-title">sdsdsdsdsd</span></a>
+							</li>
+								
+														
+							<li class=" " >
+								<a title="Contato" href="//styleshop.vialoja.com.br/contato"><span class="menu-title">Contato</span></a>
+							</li>
+
+							
+							<li class=" " >
+								<a title="Blog" href="http://blog.vialoja.com.br/sd" target="_blank"><span class="menu-title">Blog</span></a>
+							</li>
+								
+														
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</nav>
+	</div>
+	<script type="text/javascript">
+		jQuery(window).ready( function(){
+		
+			/*  Fix First Click Menu */
+			jQuery(document.body).on('click', '#mainmenutop [data-toggle="dropdown"]' ,function(event){
+				event.stopImmediatePropagation();
+				jQuery(this).parent().show();
+				if(!jQuery(this).parent().hasClass('open') && this.href && this.href != '#'){
+					window.location.href = this.href;
+				}
+		
+			});
+			jQuery(document.body).on('dblclick', '#mainmenutop [data-toggle="dropdown"]' ,function(event){
+				event.stopImmediatePropagation();
+				jQuery(this).parent().show();
+				if(!jQuery(this).parent().hasClass('open') && this.href && this.href != '#'){
+					window.location.href = this.href;
+				}
+		
+			});
+		});
+	</script>    
+</div>					
+                </section>
+            </section>
+            
+            <section id="sys-notification">
+                <div class="container">
+                    <div id="notification"></div>
+                </div>
+            </section>
+			
+			<!-- BEGIN - Content -->
+			<section id="columns" class="offcanvas-siderbars">
+    <div class="container">
+
+        <div class="breadcrumbs">
+    <ul>
+        <li class="home">
+            <a href="/superstore/index.php/" title="Go to Home Page">Home</a>
+            <span>/ </span>
+        </li>
+        <li class="category38">
+            <a href="/superstore/index.php/desktops-7.html" title="">Desktops</a>
+            <span>/ </span>
+        </li>
+        <li class="product">
+            Framed-Sleeve Mid
+            <span>/ </span>
+        </li>
+        <li class="cms_page">
+            <strong></strong>
+        </li>
+    </ul>
+</div>
+        <div class="row">
+            <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div id="content">
+                    <script type="text/javascript">
+                        var optionsPrice = new Product.OptionsPrice({"productId":"200","priceFormat":{"pattern":"$%s","precision":2,"requiredPrecision":2,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":1},"includeTax":"false","showIncludeTax":false,"showBothPrices":false,"productPrice":390,"productOldPrice":390,"priceInclTax":390,"priceExclTax":390,"skipCalculate":1,"defaultTax":0,"currentTax":0,"idSuffix":"_clone","oldPlusDisposition":0,"plusDisposition":0,"plusDispositionTax":0,"oldMinusDisposition":0,"minusDisposition":0,"tierPrices":[],"tierPricesInclTax":[]});
+                    </script>
+                    <div id="messages_product_view"></div>
+                    
+                    <div class="product-view">
+
+                        <div class="product-essential">
+
+    <div class="no-display">
+        <input type="hidden" name="product" value="200" />
+        <input type="hidden" name="related_product" id="related-products-field" value="" />
+    </div>
+
+    <div class="row">
+
+        <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12 product-img-box">
+	    <div class="image">
+	        <span class="new-icon"><span>Novo</span></span>
+	        <span class="onsale"><span>Oferta</span></span>
+	        <a href="//cdn.vialoja.com.br/5/produto/723/large/blouse.jpg" title="Farlap Shirt - Ruby Wines" class="colorbox">
+	        	<img id="image" src="//cdn.vialoja.com.br/5/produto/723/thickbox/blouse.jpg" alt="Farlap Shirt - Ruby Wines" title="Farlap Shirt - Ruby Wines" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/blouse.jpg" class="product-image-zoom"/>
+	        </a>
+	    </div><div id="image-additional" class="image-additional slide carousel more-views">
+	        <div class="carousel-inner" id="image-gallery-zoom"><div class="item row"></div><div class="item row"><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/blouse.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/blouse.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/blouse.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/blouse.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/blouse.jpg" class="product-image-zoom" />
+                </a><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/beginning-php-and-mysql-from-novice-to-professional-723.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/beginning-php-and-mysql-from-novice-to-professional-723.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/beginning-php-and-mysql-from-novice-to-professional-723.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/beginning-php-and-mysql-from-novice-to-professional-723.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/beginning-php-and-mysql-from-novice-to-professional-723.jpg" class="product-image-zoom" />
+                </a><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152537.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152537.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152537.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/img-20150325-152537.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152537.jpg" class="product-image-zoom" />
+                </a><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152552.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152552.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152552.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/img-20150325-152552.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/img-20150325-152552.jpg" class="product-image-zoom" />
+                </a></div><div class="item row"><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/aguia.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/aguia.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/aguia.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/aguia.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/aguia.jpg" class="product-image-zoom" />
+                </a><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/anonymous-times-three-by-solarider.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/anonymous-times-three-by-solarider.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/anonymous-times-three-by-solarider.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/anonymous-times-three-by-solarider.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/anonymous-times-three-by-solarider.jpg" class="product-image-zoom" />
+                </a><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/bmw-comprado-com-o-golpe-da-telexfree-pelo-fernando-augusto.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/bmw-comprado-com-o-golpe-da-telexfree-pelo-fernando-augusto.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/bmw-comprado-com-o-golpe-da-telexfree-pelo-fernando-augusto.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/bmw-comprado-com-o-golpe-da-telexfree-pelo-fernando-augusto.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/bmw-comprado-com-o-golpe-da-telexfree-pelo-fernando-augusto.jpg" class="product-image-zoom" />
+                </a><a href="//cdn.vialoja.com.br/5/produto/723/thickbox/leon-mandrake-1939.jpg" title="" class="colorbox" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/leon-mandrake-1939.jpg" data-image="//cdn.vialoja.com.br/5/produto/723/thickbox/leon-mandrake-1939.jpg">
+                    <img src="//cdn.vialoja.com.br/5/produto/723/small/leon-mandrake-1939.jpg"  title="" alt="" data-zoom-image="//cdn.vialoja.com.br/5/produto/723/thickbox/leon-mandrake-1939.jpg" class="product-image-zoom" />
+                </a></div></div>
+		        <a class="carousel-control left" href="#image-additional" data-slide="prev">&lsaquo;</a>
+		        <a class="carousel-control right" href="#image-additional" data-slide="next">&rsaquo;</a>
+		    </div>
+
+
+		    <script type="text/javascript">
+		        jQuery('#image-additional .item:first').addClass('active');
+		        jQuery('#image-additional').carousel({interval:false})
+		    </script><div class="item row">
+
+				<div class="produto-video borda-alpha">
+		            <div>
+		              	<p>Clique no botão ao lado para assistir o video relacionado ao produto.</p>
+		            </div>
+		            <a href="#myModalVideo" role="button" data-toggle="modal" class="botao-video">
+		              	<i class="fa fa-youtube-play cor-principal"></i>
+		              	<span>Assistir Video</span>
+		            </a>
+	          	</div>
+
+			</div><!-- Modal -->
+			<div class="modal fade" id="myModalVideo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			        <h4 class="modal-title" id="myModalLabel">Vídeo</h4>
+			      </div>
+			      <div class="modal-body">
+			        <iframe src="http://youtube.com/embed/QozCc2wX85U" width="560" height="315" frameborder="0" id="playerVideo"></iframe>
+			      </div>
+			      <div class="modal-footer">
+			        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+			      </div>
+			    </div>
+			  </div>
+			</div>
+			<script type="text/javascript">
+			      $("#myModalVideo").on('hidden', function() {
+			        var src = $('#playerVideo').attr('src');
+			        $('#playerVideo').attr('src', '');
+			        $('#playerVideo').attr('src', src);
+			      });
+			    </script><script type="text/javascript" src="/superstore/js/venustheme/ves_tempcp/jquery/elevatezoom/elevatezoom-min.js"></script>
+		    
+		    <script type="text/javascript">
+		        jQuery("#image").elevateZoom({
+		                 gallery:'image-gallery-zoom', 
+		           cursor: 'pointer', 
+		           lensShape : "basic",
+		           lensSize    : 150,
+		           galleryActiveClass: 'active'});
+		        
+		    </script>
+
+		    <script type="text/javascript">
+		        <!--
+		        jQuery(document).ready(function() {
+		          jQuery('.colorbox').colorbox({
+		            width: '800', 
+		            height: '600',
+		            overlayClose: true,
+		            opacity: 0.5,
+		            rel: "colorbox"
+		          });
+		          jQuery('#image-gallery-zoom').find("a").click(function(){
+		            if(jQuery(".product-img-box .image a").length > 0) {
+		              var image_link = jQuery(this).attr("href");
+		              jQuery(".product-img-box .image a").attr("href", image_link);
+		            }
+		          })
+		        });
+		        //-->
+		    </script> 
+		</div>
+        <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 product-shop">
+
+            <div class="product-name">
+                <h1>
+                    Livro Construindo Sistemas Linux Embarcados 2g                </h1>
+            </div> 
+
+             
+
+            <div class="col-md-12 column">
+                <div class="row clearfix">
+                    <div class="ratings">
+                        <p class="rating-links">                     
+                            (<fb:comments-count href="http://styleshop.vialoja.com.br/produto/723-livro-construindo-sistemas-linux-embarcados-2g.html"></fb:comments-count>) Comentários
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                              
+
+            
+            <div class="col-md-12 produto_codigo_marca">
+                <div class="row clearfix">
+                    <div class="col-md-6">
+
+                        
+                        <span class="cor-secundaria">
+                            <b>Código: </b>
+                            <span itemprop="sku">V3H336gSC</span>
+                        </span>
+                            
+                                               
+                    </div>
+
+                    
+                    <div class="col-md-6 column">
+
+                        <div class="product-brand" style="clear:both">
+
+                            <span class="cor-secundaria" itemtype="http://schema.org/Brand" itemscope="itemscope" itemprop="brand">
+                                <b>Marca: </b>
+
+                                
+                                    <a itemprop="name" href="//styleshop.vialoja.com.br/marca/74-alta-books.html" title="Alta Books">Alta Books</a>
+                            </span>                    
+
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <div class="col-md-12 produto_atributo">
+
+                <div class="row clearfix">
+
+                    <div class="principal">
+
+                        <div class="atributos">
+                            <div class="atributo-cor">
+                                <span>
+                                Selecione a opção de
+                                <b class="cor-secundaria">Cor</b>:
+                                </span>
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;" class="atributo-item" data-grade-id="8945" data-variacao-id="37063" data-pode-ter-imagens="true">
+                                        <span style="border-color: #E06666;"  >
+                                        </span>
+                                        <i class="icon-remove hide"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="atributo-item" data-grade-id="8945" data-variacao-id="37069" data-pode-ter-imagens="true">
+                                        <span style="border-color: #FFFF00;"  >
+                                        </span>
+                                        <i class="icon-remove hide"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="atributo-item" data-grade-id="8945" data-variacao-id="37096" data-pode-ter-imagens="true">
+                                        <span style="border-color: #FFFFFF;"  >
+                                        </span>
+                                        <i class="icon-remove hide"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <script type="text/javascript"></script>
+                            <div class="atributo-comum">
+                                <span>
+                                Selecione a opção de
+                                <b class="cor-secundaria">Parte de Cima</b>:
+                                </span>
+
+                                <ul>
+                                    <li>
+                                        <a href="javascript:;" class="atributo-item" data-grade-id="47938" data-variacao-id="220552" data-pode-ter-imagens="false">
+                                        <span>
+                                        G
+                                        </span>
+                                        <i class="icon-remove hide"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;" class="atributo-item" data-grade-id="47938" data-variacao-id="220553" data-pode-ter-imagens="false">
+                                        <span>
+                                        G1
+                                        </span>
+                                        <i class="icon-remove hide"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>            
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="col-md-12 produto_preco">
+                <div class="row clearfix" >
+                    <div class="col-md-6">
+
+                        <div class="price-box">
+
+                            
+                                    
+                            <p class="old-price">
+                                <span class="price-label">Regular Price:</span>
+                                <span class="price" id="old-price-204">
+                                    R$ 46,00                
+                                </span>
+                            </p>
+
+                            <p class="special-price">
+                                <span class="price-label">Special Price</span>
+                                <span class="price" id="product-price-204">
+                                    R$ 43,00                
+                                </span>
+                            </p>
+                            <meta content="BRL" itemprop="currency"/>
+                            <meta content="46,00" itemprop="price"/>
+                            
+                            
+                            <div>
+                                <span class="preco-parcela">
+                                    até <strong class="cor-secundaria ">6x</strong> de
+                                    <strong class="cor-secundaria">R$ 19,99</strong>
+                                    <!--googleoff: all-->
+                                    <span>sem juros</span>
+                                    <!--googleon: all-->
+                                </span>
+                            </div>                                                
+                
+                        </div>
+
+                    </div>
+                    <div class="col-md-6">
+
+                        <div class="product-options-bottom">
+     
+                            <div class="add-to-cart">
+                                <div class="quantity-adder pull-left">
+                                    <div class="quantity-number pull-left">
+                                        <label for="qty">Qtde:</label>
+                                        <input type="text" name="qty" id="qty" maxlength="3" value="1" title="Qty" class="input-text qty" />
+                                    </div>
+                                    <div class="quantity-wrapper pull-left">
+                                        <span class="add-up add-action fa fa-plus"></span> 
+                                        <span class="add-down add-action fa fa-minus"></span>
+                                    </div>
+                                </div>
+                                <button type="button" title="Comprar" class="button btn-cart"><span><span class="comprar"><i class="fa fa-shopping-cart"></i> Comprar</span></span></button>
+                            </div>
+                           
+                        </div>
+
+                        <div style="clear:both;" >
+                            <p class="availability in-stock">
+                                <span class="p-icons">
+                                    <i class="fa fa-check"></i>
+                                </span>
+                                    Disponibilidade: 
+                                <strong>
+
+                                Imediata
+
+                                </strong>
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>   
+
+             
+
+            <!--
+
+            <div style="clear:both">
+
+                <p class="email-friend">
+                    <span class="p-icons">
+                        <img src="/superstore/skin/frontend/default/ves_superstore/images/email.png" alt="In stock" />
+                    </span>
+                    <a href="/superstore/index.php/sendfriend/product/send/id/200/cat_id/38/">Recomendar aos amigos</a>
+                </p>
+            </div>
+            -->
+
+
+            <div class="col-md-12 produto_calcula_frete">
+                <div class="row clearfix">
+                    <div class="col-md-6">                        
+
+                        <form class="form-inline" id="enviar_cep" method="post">
+                            <div class="form-group">
+                                Calcule o frete para sua região
+                                <label class="sr-only" for="cep">Cep</label>
+                                <div class="input-group">
+
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-truck"></i>
+                                    </div>
+
+                                    <input type="text" class="form-control" id="id_cep" name="cep" placeholder="CEP">
+                                    <input type="hidden" name="peso" value="0.800">
+                                    <input type="hidden" name="preco" value="43.00">
+                                    <input type="hidden" name="altura" value="15">
+                                    <input type="hidden" name="largura" value="20">
+                                    <input type="hidden" name="comprimento" value="15">
+                                    <input type="hidden" name="produto" value="723">
+                                    <input type="hidden" name="loja" value="5">
+
+                                    <div class="input-group-addon" style="padding:2px;">
+                                        <button type="submit"  class="btn btn-default">Calcular</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </form>                 
+                    </div>
+
+                    <div class="col-md-6 url_buscacep">
+
+                        <div>
+                            <a href="http://www.buscacep.correios.com.br/" title="Busca cep nos Correios" target="_blank">
+                            <i class="fa fa-question-circle"></i>&nbsp; Não sei meu CEP</a>
+                        </div>                            
+                      
+                    </div>
+                </div>
+
+                <div class="row clearfix">
+                    <div class="col-md-12">
+                        <div id="saida"></div>                        
+                    </div>
+                </div>
+                
+            </div>
+
+
+            <div class="col-md-12 produto_parcelas">
+                <ul id="myTab" class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#pagseguro" data-toggle="tab"><img src="//cdn.vialoja.com.br//static/img/formas-de-pagamento/pagseguro-logo.png" alt="PagSeguro" /></a>
+                    </li>
+                    <li>
+                        <a href="#BCash" data-toggle="tab"><img src="//cdn.vialoja.com.br//static/img/formas-de-pagamento/pagamento_digital-logo.png" alt="BCash" /></a>
+                    </li>
+                   
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade in active" id="pagseguro">
+
+
+                        <table class="table">
+                            <tr>
+                                <td>
+
+
+                                    <!--googleoff: all-->
+              
+                                    <ul  style="text-align: left;">
+                                      
+                                        
+                                          <li class="parcela p-1 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">1x</b>
+                                              de R$ 87,00
+                                              <!--googleoff: all-->
+                                              
+                                                sem juros
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-2 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">2x</b>
+                                              de R$ 43,50
+                                              <!--googleoff: all-->
+                                              
+                                                sem juros
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-3 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">3x</b>
+                                              de R$ 29,00
+                                              <!--googleoff: all-->
+                                              
+                                                sem juros
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-4 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">4x</b>
+                                              de R$ 23,40
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-5 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">5x</b>
+                                              de R$ 18,99
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-6 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">6x</b>
+                                              de R$ 16,05
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                    </ul>
+                                  
+                                    <ul style="text-align: left;">
+                                      
+                                        
+                                          <li class="parcela p-7 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">7x</b>
+                                              de R$ 13,96
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>                           
+                                      
+                                        
+                                          <li class="parcela p-8 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">8x</b>
+                                              de R$ 12,39
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-9 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">9x</b>
+                                              de R$ 11,17
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-10 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">10x</b>
+                                              de R$ 10,19
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-11 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">11x</b>
+                                              de R$ 9,40
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                        
+                                          <li class="parcela p-12 ">
+                                            <span class="cor-secundaria">
+                                              <b class="cor-principal">12x</b>
+                                              de R$ 8,73
+                                              <!--googleoff: all-->
+                                              
+                                              <!--googleon: all-->
+                                            </span>
+                                          </li>
+                                        
+                                      
+                                    </ul>
+                                  
+                                  <!--googleon: all-->
+                                
+
+
+                            </td>                       
+                        </tr>
+
+                        </table>
+
+                    </div>
+                    <div class="tab-pane fade" id="BCash">
+                        <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit. Keytar helvetica VHS salvia yr, vero magna velit sapiente labore stumptown. Vegan fanny pack odio cillum wes anderson 8-bit, sustainable jean shorts beard ut DIY ethical culpa terry richardson biodiesel. Art party scenester stumptown, tumblr butcher vero sint qui sapiente accusamus tattooed echo park.</p>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+
+    </div>
+
+    <script type="text/javascript" src="http://getbootstrap.com/2.3.2/assets/js/bootstrap-tab.js"></script>
+
+    <script type="text/javascript">
+
+    $('#myTab a').click(function (e) {
+      e.preventDefault()
+      $(this).tab('show')
+    })
+
+
+        //<![CDATA[
+            var productAddToCartForm = new VarienForm('product_addtocart_form');
+            productAddToCartForm.submit = function(button, url) {
+                if (this.validator.validate()) {
+                    var form = this.form;
+                    var oldUrl = form.action;
+        
+                    if (url) {
+                       form.action = url;
+                    }
+                    var e = null;
+                    try {
+                        this.form.submit();
+                    } catch (e) {
+                    }
+                    this.form.action = oldUrl;
+                    if (e) {
+                        throw e;
+                    }
+        
+                    if (button && button != 'undefined') {
+                        button.disabled = true;
+                    }
+                }
+            }.bind(productAddToCartForm);
+        
+            productAddToCartForm.submitLight = function(button, url){
+                if(this.validator) {
+                    var nv = Validation.methods;
+                    delete Validation.methods['required-entry'];
+                    delete Validation.methods['validate-one-required'];
+                    delete Validation.methods['validate-one-required-by-name'];
+                    // Remove custom datetime validators
+                    for (var methodName in Validation.methods) {
+                        if (methodName.match(/^validate-datetime-.*/i)) {
+                            delete Validation.methods[methodName];
+                        }
+                    }
+        
+                    if (this.validator.validate()) {
+                        if (url) {
+                            this.form.action = url;
+                        }
+                        this.form.submit();
+                    }
+                    Object.extend(Validation.methods, nv);
+                }
+            }.bind(productAddToCartForm);
+        //]]>
+    </script>
+</div>
+<div class="tabs-group product-collateral">
+    <div class="row">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+            
+            <div id="tab-description" class="tab-content box-description">
+                <h2>Detalhes do Produto</h2>
+                <div class="std">
+                    <p>Este &eacute; o livro para Linux embarcado. Embora muitas empresas usem o Linux em todo tipo de sistemas embarcados, h&aacute; poucas fontes de informa&ccedil;&atilde;o sobre a cria&ccedil;&atilde;o, instala&ccedil;&atilde;o e realiza&ccedil;&atilde;o de testes no kernel do Linux e nas ferramentas relacionadas a ele.</p>
+                </div>
+                <br class="clear clr"/>
+            </div>
+
+            
+              
+
+            
+            <div id="tab-reviews" class="tab-content">
+                <div class="box-collateral box-reviews" id="customer-reviews">
+                    <h2>Comentários do Facebook</h2>                    
+
+                    <div class="fb-comments" data-href="http://styleshop.vialoja.com.br/produto/723-livro-construindo-sistemas-linux-embarcados-2g.html" data-numposts="5" data-colorscheme="light"></div>                </div>
+            </div>
+
+            
+        </div>
+    </div>
+</div>
+<!-- Carousel -->
+			<div id="upsell" class="carousel slide" data-interval="false">
+			    <div class="box-collateral box-up-sell">
+			        <div class="block-title">
+			            <strong>
+			            <span>Produtos relacionados</span>
+			            </strong>				
+			            <!-- Controls -->
+			            <div class="carousel-controls" dir="ltr"><a class="carousel-control pull-right" href="#upsell" data-slide="next">					
+								<span class="cars-icon cars-next"><i class="fa fa-angle-right"></i></span>
+							</a>
+							<a class="carousel-control pull-left" href="#upsell" data-slide="prev">
+								<span class="cars-icon cars-prev"><i class="fa fa-angle-left"></i></span>
+							</a>
+</div>
+			        </div>
+			        <div class="carousel-inner">
+<div class="item active product-grid no-margin">
+<div class="row products-row">
+<div class="col-xs-12 col-lg-4 col-sm-4 col-4 _item first product-col  ">
+			<div class="product-block">
+
+				<div class="image swap"><span class="new-icon"><span>Usado</span></span><a href="http://styleshop.vialoja.com.br/produto/730-livro-construindo-sistemas-linux-embarcados-2g.html" title="Livro Construindo Sistemas Linux Embarcados 2g" class="product-image">
+						<img src="//cdn.vialoja.com.br/5/produto/730/home/beginning-php-and-mysql-from-novice-to-professional-730.jpg" width="270" height="203" alt="Livro Construindo Sistemas Linux Embarcados 2g" />
+					</a>
+
+					<div class="product-colorbox"><a href="//cdn.vialoja.com.br/5/produto/730/large/beginning-php-and-mysql-from-novice-to-professional-730.jpg" class="colorbox product-zoom ves-zoom" rel="colorbox" title="Livro Construindo Sistemas Linux Embarcados 2g"><i class="fa fa-search-plus"></i></a>
+					</div>
+				</div>
+
+				<div class="product-info">
+
+					<h2 class="product-name">
+						<a href="http://styleshop.vialoja.com.br/produto/730-livro-construindo-sistemas-linux-embarcados-2g.html" title="Livro Construindo Sistemas Linux Embarcados 2g">Livro Construindo Sistemas Linux Embarca...</a>
+					</h2><br /><div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price"><div class="price">
+
+							<div class="price-box">
+
+	    						<meta itemprop="priceCurrency" content="BRL" />
+
+								<p class="old-price">
+									<span class="price-label">Preço Regular</span>
+									de
+									<span itemprop="price" class="price" id="old-price-730_clone">
+										R$ 46,00
+									</span>
+								</p>
+
+								<p class="special-price">
+									<span class="price-label">Preço Especial</span>
+									por
+									<span itemprop="price" class="price" id="product-price-730_clone">
+										R$ 15,00
+									</span>
+								</p>
+
+							</div>
+
+						</div></div></div>
+			</div>
+		</div><div class="item product-grid no-margin">
+<div class="col-xs-12 col-lg-4 col-sm-4 col-4 _item first product-col  ">
+			<div class="product-block">
+
+				<div class="image swap"><a href="http://styleshop.vialoja.com.br/produto/699-testesss-dasdss.html" title="testesss dasdss" class="product-image">
+						<img src="//cdn.vialoja.com.br/5/produto/699/home/11164831-1598815310389125-4622375604476839140-n.jpg" width="270" height="203" alt="testesss dasdss" />
+					</a>
+
+					<div class="product-colorbox"><a href="//cdn.vialoja.com.br/5/produto/699/large/11164831-1598815310389125-4622375604476839140-n.jpg" class="colorbox product-zoom ves-zoom" rel="colorbox" title="testesss dasdss"><i class="fa fa-search-plus"></i></a>
+					</div>
+				</div>
+
+				<div class="product-info">
+
+					<h2 class="product-name">
+						<a href="http://styleshop.vialoja.com.br/produto/699-testesss-dasdss.html" title="testesss dasdss">Testesss dasdss</a>
+					</h2><br /><div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price"><meta itemprop="priceCurrency" content="BRL" />
+
+						<div class="price">
+
+							<div class="price-box">
+
+	    						<meta itemprop="priceCurrency" content="BRL" />
+
+								<p class="special-price">
+									<span class="price-label">Preço Regular</span>
+									<span itemprop="price" class="price" id="product-price-699_clone">
+										R$ 800,00
+									</span>
+								</p>
+
+							</div>
+
+						</div></div></div>
+			</div>
+		</div><div class="item product-grid no-margin">
+<div class="col-xs-12 col-lg-4 col-sm-4 col-4 _item first product-col  ">
+			<div class="product-block">
+
+				<div class="image swap"><a href="http://styleshop.vialoja.com.br/produto/700-ailto-celestino.html" title="Ailto celestino" class="product-image">
+						<img src="//cdn.vialoja.com.br/5/produto/700/home/bmw-comprado-com-o-golpe-da-telexfree-pelo-fernando-augusto.jpg" width="270" height="203" alt="Ailto celestino" />
+					</a>
+
+					<div class="product-colorbox"><a href="//cdn.vialoja.com.br/5/produto/700/large/bmw-comprado-com-o-golpe-da-telexfree-pelo-fernando-augusto.jpg" class="colorbox product-zoom ves-zoom" rel="colorbox" title="Ailto celestino"><i class="fa fa-search-plus"></i></a>
+					</div>
+				</div>
+
+				<div class="product-info">
+
+					<h2 class="product-name">
+						<a href="http://styleshop.vialoja.com.br/produto/700-ailto-celestino.html" title="Ailto celestino">Ailto celestino</a>
+					</h2><br /><div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price"><div class="price">
+
+							<div class="price-box">
+
+	    						<meta itemprop="priceCurrency" content="BRL" />
+
+								<p class="special-price">
+									<span class="price-label">Preço Regular</span>
+									<span itemprop="price" class="price" id="special-price-700_clone">
+										Preço Sob Consulta
+									</span>
+								</p>
+
+							</div>
+
+						</div></div></div>
+			</div>
+		</div><div class="item product-grid no-margin">
+<div class="row products-row">
+<div class="col-xs-12 col-lg-4 col-sm-4 col-4 _item first product-col  ">
+			<div class="product-block">
+
+				<div class="image swap"><a href="http://styleshop.vialoja.com.br/produto/678-sssssssssssssss.html" title="sssssssssssssss" class="product-image">
+						<img src="//cdn.vialoja.com.br/5/produto/678/home/anonymous-times-three-by-solarider.jpg" width="270" height="203" alt="sssssssssssssss" />
+					</a>
+
+					<div class="product-colorbox"><a href="//cdn.vialoja.com.br/5/produto/678/large/anonymous-times-three-by-solarider.jpg" class="colorbox product-zoom ves-zoom" rel="colorbox" title="sssssssssssssss"><i class="fa fa-search-plus"></i></a>
+					</div>
+				</div>
+
+				<div class="product-info">
+
+					<h2 class="product-name">
+						<a href="http://styleshop.vialoja.com.br/produto/678-sssssssssssssss.html" title="sssssssssssssss">Sssssssssssssss</a>
+					</h2><br /><div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price"><div class="price">
+
+							<div class="price-box">
+
+	    						<meta itemprop="priceCurrency" content="BRL" />
+
+								<p class="special-price">
+									<span class="price-label">Preço Regular</span>
+									<span itemprop="price" class="price" id="special-price-678_clone">
+										Preço Sob Consulta
+									</span>
+								</p>
+
+							</div>
+
+						</div></div></div>
+			</div>
+		</div></div>
+<script type="text/javascript"><!--
+						                    jQuery(document).ready(function() {
+						                        jQuery('.colorbox').colorbox({
+						                            overlayClose: true,
+						                            opacity: 0.5,
+						                            rel: false,
+						                            onLoad:function(){
+						                                jQuery("#cboxNext").remove(0);
+						                                jQuery("#cboxPrevious").remove(0);
+						                                jQuery("#cboxCurrent").remove(0);
+						                            }
+						                        });
+						                         
+						                    });
+						                    //--></script>
+						                <script type="text/javascript">
+						                    jQuery(document).ready(function() {
+						                        jQuery(".ves-colorbox").colorbox({
+						                                width: '60%', 
+						                                height: '80%',
+						                                overlayClose: true,
+						                                opacity: 0.5,
+						                                iframe: true, 
+						                        });
+						                        
+						                    });
+						                </script>
+						            </div>
+<div class="item product-grid no-margin">
+<div class="col-xs-12 col-lg-4 col-sm-4 col-4 _item first product-col  ">
+			<div class="product-block">
+
+				<div class="image swap"><a href="http://styleshop.vialoja.com.br/produto/258-tenis-batore.html" title="Tenis batore" class="product-image">
+						<img src="//cdn.vialoja.com.br/5/produto/258/home/tenis-puma-feminino-casual-airflat-sl-photo24382869-12-13-2d.jpg" width="270" height="203" alt="Tenis batore" />
+					</a>
+
+					<div class="product-colorbox"><a href="//cdn.vialoja.com.br/5/produto/258/large/tenis-puma-feminino-casual-airflat-sl-photo24382869-12-13-2d.jpg" class="colorbox product-zoom ves-zoom" rel="colorbox" title="Tenis batore"><i class="fa fa-search-plus"></i></a>
+					</div>
+				</div>
+
+				<div class="product-info">
+
+					<h2 class="product-name">
+						<a href="http://styleshop.vialoja.com.br/produto/258-tenis-batore.html" title="Tenis batore">Tenis batore</a>
+					</h2><br /><div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price"><div class="price">
+
+							<div class="price-box">
+
+	    						<meta itemprop="priceCurrency" content="BRL" />
+
+								<p class="special-price">
+									<span class="price-label">Preço Regular</span>
+									<span itemprop="price" class="price" id="special-price-258_clone">
+										Preço Sob Consulta
+									</span>
+								</p>
+
+							</div>
+
+						</div></div></div>
+			</div>
+		</div><div class="item product-grid no-margin">
+<div class="col-xs-12 col-lg-4 col-sm-4 col-4 _item first product-col  ">
+			<div class="product-block">
+
+				<div class="image swap"><span class="onsale"><span>Oferta</span></span><a href="http://styleshop.vialoja.com.br/produto/170-produto-d.html" title="Produto d" class="product-image">
+						<img src="//cdn.vialoja.com.br/5/produto/170/home/hydrangeas.jpg" width="270" height="203" alt="Produto d" />
+					</a>
+
+					<div class="product-colorbox"><a href="//cdn.vialoja.com.br/5/produto/170/large/hydrangeas.jpg" class="colorbox product-zoom ves-zoom" rel="colorbox" title="Produto d"><i class="fa fa-search-plus"></i></a>
+					</div>
+				</div>
+
+				<div class="product-info">
+
+					<h2 class="product-name">
+						<a href="http://styleshop.vialoja.com.br/produto/170-produto-d.html" title="Produto d">Produto d</a>
+					</h2><br /><div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price"><div class="price">
+
+							<div class="price-box">
+
+	    						<meta itemprop="priceCurrency" content="BRL" />
+
+								<p class="old-price">
+									<span class="price-label">Preço Regular</span>
+									de
+									<span itemprop="price" class="price" id="old-price-170_clone">
+										R$ 0,25
+									</span>
+								</p>
+
+								<p class="special-price">
+									<span class="price-label">Preço Especial</span>
+									por
+									<span itemprop="price" class="price" id="product-price-170_clone">
+										R$ 0,14
+									</span>
+								</p>
+
+							</div>
+
+						</div></div></div>
+			</div>
+		</div><div class="item product-grid no-margin">
+<div class="row products-row">
+<div class="col-xs-12 col-lg-4 col-sm-4 col-4 _item first product-col  ">
+			<div class="product-block">
+
+				<div class="image swap"><span class="new-icon"><span>Usado</span></span><a href="http://styleshop.vialoja.com.br/produto/723-livro-construindo-sistemas-linux-embarcados-2g.html" title="Livro Construindo Sistemas Linux Embarcados 2g" class="product-image">
+						<img src="//cdn.vialoja.com.br/5/produto/723/home/blouse.jpg" width="270" height="203" alt="Livro Construindo Sistemas Linux Embarcados 2g" />
+					</a>
+
+					<div class="product-colorbox"><a href="//cdn.vialoja.com.br/5/produto/723/large/blouse.jpg" class="colorbox product-zoom ves-zoom" rel="colorbox" title="Livro Construindo Sistemas Linux Embarcados 2g"><i class="fa fa-search-plus"></i></a>
+					</div>
+				</div>
+
+				<div class="product-info">
+
+					<h2 class="product-name">
+						<a href="http://styleshop.vialoja.com.br/produto/723-livro-construindo-sistemas-linux-embarcados-2g.html" title="Livro Construindo Sistemas Linux Embarcados 2g">Livro Construindo Sistemas Linux Embarca...</a>
+					</h2><br /><div itemprop="offers" itemscope itemtype="http://schema.org/Offer" class="price"><div class="price">
+
+							<div class="price-box">
+
+	    						<meta itemprop="priceCurrency" content="BRL" />
+
+								<p class="old-price">
+									<span class="price-label">Preço Regular</span>
+									de
+									<span itemprop="price" class="price" id="old-price-723_clone">
+										R$ 46,00
+									</span>
+								</p>
+
+								<p class="special-price">
+									<span class="price-label">Preço Especial</span>
+									por
+									<span itemprop="price" class="price" id="product-price-723_clone">
+										R$ 43,00
+									</span>
+								</p>
+
+							</div>
+
+						</div></div></div>
+			</div>
+		</div></div>
+<script type="text/javascript"><!--
+					                    jQuery(document).ready(function() {
+					                        jQuery('.colorbox').colorbox({
+					                            overlayClose: true,
+					                            opacity: 0.5,
+					                            rel: false,
+					                            onLoad:function(){
+					                                jQuery("#cboxNext").remove(0);
+					                                jQuery("#cboxPrevious").remove(0);
+					                                jQuery("#cboxCurrent").remove(0);
+					                            }
+					                        });
+					                         
+					                    });
+					                    //--></script>
+					                <script type="text/javascript">
+					                    jQuery(document).ready(function() {
+					                        jQuery(".ves-colorbox").colorbox({
+					                                width: '60%', 
+					                                height: '80%',
+					                                overlayClose: true,
+					                                opacity: 0.5,
+					                                iframe: true, 
+					                        });
+					                        
+					                    });
+					                </script>
+					            </div>
+</div>
+			    </div>
+			</div>
+
+			<script type="text/javascript">	
+			    jQuery('.carousel').carousel({
+			    	interval:6000,auto:true,pause:'hover', cycle: true
+			    });
+			</script>
+
+                    </div>
+                    <script type="text/javascript">
+                        jQuery('#tabs a').tabs();
+                    </script> 
+                    <script type="text/javascript">
+                        var lifetime = 3600;
+                        var expireAt = Mage.Cookies.expires;
+                        if (lifetime > 0) {
+                            expireAt = new Date();
+                            expireAt.setTime(expireAt.getTime() + lifetime * 1000);
+                        }
+                        Mage.Cookies.set('external_no_cache', 1, expireAt);
+                    </script>
+                    <div class="contentBottom">
+                        <div class="container">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>			<!-- END -Content -->
+			
+            <section id="ves-massbottom1" class="ves-massbottom1">
+                <div class="container">
+				
+					<div id="ves-brandcarousel" class="block ves-brandcarousel">
+		<div class="block-title">
+			<strong>
+				<span>Nossas Marcas</span>
+			</strong>	
+		</div>
+		<div class="block-content">
+			<div id="brandcarousel5" class="carousel slide vescarousel hidden-xs">
+				<div class="carousel-inner">
+<div class="row item active">
+<div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/64-dfdsf.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/screenshot-20.png" alt="dfdsf" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/46-polo.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/screenshot-5.png" alt="Polo" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/23-pagseguro.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/logo-ps-uol.jpg" alt="PagSeguro" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/40-tec-tudo.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/brand3.jpg" alt="TEc tudo" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/68-sssssssssss.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/img-20150325-152537.jpg" alt="sssssssssss" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/45-shell.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/silencio-2.jpg" alt="shell" class="img-responsive" />
+								</a>
+							</div>
+						</div></div><!-- fecha 6-->
+							<div class="row item">
+<div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/71-teste.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/img-20150325-152552.jpg" alt="teste" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/72-cargos.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/icon-cash.png" alt="CArgos" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/67-sdsa.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/aguia.jpg" alt="sdsa" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/47-cargo.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/silencio.jpg" alt="Cargo" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/61-tec-print.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/screenshot-8.png" alt="tec print" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/51-fdsfds.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/screenshot-19.png" alt="fdsfds" class="img-responsive" />
+								</a>
+							</div>
+						</div></div><!-- fecha 12-->
+							<div class="row item">
+<div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/74-alta-books.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/11193318-825202504201340-2401771871305080225-n.jpg" alt="Alta Books" class="img-responsive" />
+								</a>
+							</div>
+						</div><div class="col-lg-2 col-xs-6 col-sm-2">
+							<div class="item-inner">
+								<a href="//styleshop.vialoja.com.br/marca/63-avene.html">
+									<img src="//cdn.vialoja.com.br/5/marcas/chn-wechat1.jpg" alt="avene" class="img-responsive" />
+								</a>
+							</div>
+						</div></div><!-- fecha 13-->
+</div>
+<div class="carousel-controls">
+						<a class="carousel-control left fa fa-angle-left" href="#brandcarousel5" rel="nofollow" data-slide="prev"></a>
+						<a class="carousel-control right fa fa-angle-right" href="#brandcarousel5" rel="nofollow" data-slide="next"></a>
+					</div>
+</div>
+		</div>
+	</div>
+
+	<script type="text/javascript">
+	<!--
+	jQuery('#brandcarousel5').carousel({interval:false});
+	-->
+	</script>					
+                </div>
+            </section>
+			
+            <section id="footer">                
+				
+				<div class="footer-top">
+  <div class="container">
+      <!-- Botton Skype BEGIN-->
+    <script type="text/javascript" src="http://www.skypeassets.com/i/scom/js/skype-uri.js"></script>
+    <!-- Botton Skype END-->
+
+    <!-- AddThis Smart Layers BEGIN -->
+    <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5379d9ee05f4ffa5"></script>
+    <script type="text/javascript">
+      var share_desktop = true;
+      var share_mobile = false;
+      var follow_desktop = false;
+      var follow_mobile = false;
+      var mobile = false;
+      addthis.layers({
+        'theme' : 'transparent',
+        'domain' : '//styleshop.vialoja.com.br',
+        'linkFilter' : function(link, layer) {
+          console.log(link.title + ' - ' + link.url + " - " + layer);
+          return link;
+        },
+        'responsive' : {
+          'maxWidth' : '979px',
+          'minWidth' : '0px'
+        },
+        'share' : {
+          'position' : 'right',
+          'services' : 'facebook,more,print,tumblr,linkedin,gmail,google_plusone_share,hotmail',
+          'postShareTitle' : 'Obrigado por compartilhar!',
+          'postShareFollowMsg' : 'Follow us',
+          'desktop' : share_desktop,
+          'mobile' : share_mobile,
+          'theme' : 'transparent'
+        },
+        'follow' : {                 'services' : [                    {'service' : 'twitter', 'id' : ''},
+                    {'service' : 'linkedin', 'id' : ''},
+                ],
+        
+          'title' : 'Follow',
+          'postFollowTitle' : 'Obrigado por seguir!',
+          'desktop' : follow_desktop,
+          'mobile' : follow_mobile,
+          'theme' : 'transparent'
+        },
+
+        'mobile' : {
+          'buttonBarPosition' : 'bottom',
+          'buttonBarTheme' : 'light',
+          'mobile' : mobile
+        }
+      });
+    </script>
+      <!-- AddThis Smart Layers BEGIN -->
+      <!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+      <div class="block module_newletter ">
+          <div class="block-content">
+              <div class="new-letter">
+                  <div class="row">
+                      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                          <div class="custom-subscribe">
+                              <i class="fa fa-envelope-o"></i>
+                              <div class="title">
+                                  <h3>CADASTRE-SE</h3>
+                                  
+                                  <span>E receba ofertas especiais</span>
+                              </div>
+                              <form action="//styleshop.vialoja.com.br/newsletter/cadastrar" method="post" id="newsletter-validate-detail">
+                  
+                                  <input type='hidden' name='token' value='15e8f4768a82b29cc41230555f227a9cc64ac665' />
+<input type="hidden" name="id_shop_default" value="5" />
+<input type="text" class="hidden" name="url_default" value="">
+<input type="text" class="hidden" name="ckeck" value="">
+<input style="position: absolute; width: 1px; top: -5000px; left: -5000px;" name="name" type="text">
+                                  <div class="subscribe-box">
+                                      <div class="input-box">
+                                          <input type="text" name="email" id="newsletter" title="Entre com seu melhor e-mail!" class="input-text required-entry validate-email form-control" />
+                                      </div>
+                                      <div class="actions">
+                                          <button type="submit" title="Cadastrar" class="button"><span><span>Cadastrar</span></span></button>
+                                      </div>
+                                  </div>
+                              </form>
+                              <script type="text/javascript">
+                                  //<![CDATA[
+                                      var newsletterSubscriberFormDetail = new VarienForm('newsletter-validate-detail');
+                                  //]]>
+                              </script>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                          <div class="social-link">
+                            <h3 class="title_block">Siga-nos no</h3>
+                            <ul class="social">
+
+                                                            <li><a class="facebook" href="https://www.facebook.com/LegiaoDosHerois" target="_BLANK" title="Facebook"> <em class="fa fa-facebook stack"><span>Facebook</span></em> </a></li>
+                              
+                                                            <li><a class="twitter" href="https://twitter.com/wsduarte" target="_BLANK" title="Twitter"> <em class="fa fa-twitter stack"><span>Twitter</span></em> </a></li>
+                              
+                                                            <li><a class="google-plus" rel="nofollow" href="#" title="Google Plus"> <em class="fa fa-google-plus stack"> <span>Google Plus</span> </em> </a></li>
+                              
+                                                            <li><a class="instagram" href="http://instagram.com/androids/" target="_BLANK" title="Instagram"> <em class="fa fa-instagram stack"><span>Facebook</span></em> </a></li>
+                              
+                                                            <li><a class="pinterest" href="https://www.pinterest.com/breenrawwk/" target="_BLANK" title="Pinterest"> <em class="fa fa-pinterest stack"><span>Facebook</span></em> </a></li>
+                              
+                                                            <li><a class="youtube" href="https://www.youtube.com/user/BrooklynAndBailey" target="_BLANK" title="Youtube"> <em class="fa fa-youtube stack"> <span>Youtube</span> </em> </a></li> 
+                              
+                                                            <li><a class="skype" href="skype:tvcanal13.com?chat" title="Skype"> <em class="fa fa-skype stack"> <span>Skype</span> </em> </a></li>
+                                                            
+                              
+                            </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="clear clr"></div>
+          </div>
+      </div>
+  </div>
+</div>
+<div class="footer-center">
+	<div class="container">
+		<div class="block module_custom-footer-links ">
+			<div class="block-content">
+				<div class="custom-footer-links">
+					<div class="row">
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<h3>Sobre a Loja</h3>
+														
+								
+							<p>Duis at nisl quis quam condimentum pulvar.<br />
+Quisque euismod convallis eros, quis lacinia<br />
+enim rhoncus se...</p>
+								
+														
+							<br />
+							<ul class="contacts">
+
+								
+																<li class="last"><span style="font-size:15px"><span style="font-weight:bold">WhatsApp:</span> (65) 9991-6303</span></li>
+													
+								
+								
+																		<li class="last"><span>E-mail: wsduarte@outlook.com</span></li>
+									
+								
+							</ul>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<h3>Informações e Suporte</h3>
+							<ul class="custom-links">
+								<li><em class="fa fa-stop"></em><a title="Contato" href="//styleshop.vialoja.com.br/contato">Contato</a></li>
+									
+								
+								<li><em class="fa fa-stop"></em><a title="Blog" href="http://blog.vialoja.com.br/sd" target="_blank">Blog</a></li>
+									
+																
+								<li><em class="fa fa-stop"></em><a title="Mapa do Site" href="#" rel="nofollow">Mapa do Site</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<h3>Conteúdo</h3>
+							<ul class="custom-links">
+
+																
+								<li><em class="fa fa-stop"></em><a title="Pedidos e Devoluções" href="//styleshop.vialoja.com.br/pagina/pedidos-e-devolucoes">Pedidos e Devoluções</a></li>
+									
+																
+								<li><em class="fa fa-stop"></em><a title="Política de Privacidade" href="//styleshop.vialoja.com.br/pagina/politica-de-privacidade">Política de Privacidade</a></li>
+									
+																
+								<li><em class="fa fa-stop"></em><a title="sdsdsdsdsd" href="//styleshop.vialoja.com.br/pagina/sdsdsdsdsd">sdsdsdsdsd</a></li>
+									
+								
+								
+							</ul>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<!--<h3>Compartilhe com seus amigos</h3>-->
+							<ul class="custom-links" style="margin-left:-23px;">
+
+																<div class="fb-like-box" data-href="https://www.facebook.com/LegiaoDosHerois" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>									
+																
+							</ul>
+
+						</div>
+						
+					</div>
+				</div>
+				<div class="clear clr"></div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer-bottom"></div>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script><div id="powered">
+	<div class="container">
+		<div class="copyright">
+			<div class="row">
+				<div class="col-md-7 col-lg-7 col-sm-7 col-xs-12">
+					<div id="top"><a class="scrollup" href="#"><i class="fa fa-angle-up"></i>Top</a></div>					
+
+					
+					<p style="margin-top:5px;">
+
+						
+					</p>
+
+
+					<p style="margin-top:5px;">
+
+						
+					</p>
+
+				</div>
+				<div class="col-md-5 col-lg-5 col-sm-5 col-xs-12">
+
+
+											
+					<h4>certificados</h4>
+					
+								
+					
+
+                	              
+					<div class="row">
+
+						ssssssssssss
+					</div>
+
+					
+					<div class="row">
+
+						
+						<div class="col-md-3 col-lg-3 col-sm-3 col-xs-12">
+
+							<a id="seloEbit" href="http://www.ebit.com.br/#" target="_blank" onclick="redir(this.href);">Avaliação de Lojas e-bit</a>
+							<script type="text/javascript" id="getSelo" src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo-ebit/js/getSelo.js?12345" >
+							</script>							
+
+						</div>
+
+						
+						<div class="col-md-9 col-lg-9 col-sm-9 col-xs-12">
+
+							
+							
+
+							
+						</div>						
+
+					</div>					
+
+				</div>
+
+			</div>
+
+			<div class="row">
+
+			<hr>
+
+				<div style="font-size:12px; margin:20px 0 -15px 0;" align="center">
+					William Duarte - CPF: 689.619.791-91 © Copyright 2015 - Todos os direitos reservados.					
+				</div>
+
+				
+				<div style="margin-top:15px;" align="center">
+
+					<a href="http://www.vialoja.com.br" title="ViaLoja.com">
+						<img  style="margin: 15px 15px -25px 0" src="//cdn.vialoja.com.br//static/img/logos-vialoja/logo-rodape-loja.png" alt="ViaLoja.com" />
+					</a>
+					
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+	
+</div>
+<section id="before_body_end">
+	
+</section>                
+				                
+            </section>
+			
+			
+            <script type="text/javascript">
+                jQuery(document).ready( function (){
+                	jQuery(".paneltool .panelbutton").click( function(){	
+                		jQuery(this).parent().toggleClass("active");
+                	} );
+                } );
+                
+            </script>
+            <div id="ves-paneltool" class="hidden-md hidden-sm hidden-xs">
+                <div class="paneltool themetool">
+                    <div class="panelbutton">
+                        <i class="glyphicon glyphicon-cog"></i>
+                    </div>
+                    <div class="panelcontent ">
+                        <div class="panelinner">
+                            <h4>Panel Tool</h4>
+                            <form action="/" method="post" class="clearfix" id="paneltool_form">
+                                <div class="group-input">
+                                    <div class="store-switcher">
+                                        <label for="select-store">Select Store:</label>
+                                        <select id="select-store" title="Select Store" onchange="location.href=this.value">
+                                            <option value="/?___store=english2">Hitech</option>
+                                            <option value="" selected="selected">Main Store</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="group-input">
+                                    <label>Theme Skins</label>
+                                    <select name="userparams[skin]">
+                                        <option value="">default</option>
+                                        <option value="cyan" >cyan</option>
+                                        <option value="dark" >dark</option>
+                                        <option value="hitech" >hitech</option>
+                                        <option value="orange" >orange</option>
+                                        <option value="red" >red</option>
+                                    </select>
+                                </div>
+                                <p class="group-input">
+                                    <label>Direction</label>
+                                    <select name="userparams[direction]">
+                                        <option value="ltr" >Left To Right</option>
+                                        <option value="rtl" >Right To Left</option>
+                                    </select>
+                                </p>
+                                <p class="group-input">
+                                    <label>Layout</label>
+                                    <select name="userparams[layout]">
+                                        <option value="fullwidth"  selected="selected" >Full Width</option>
+                                        <option value="boxed-lg" >Boxed Desktop Large</option>
+                                        <option value="boxed-md" >Boxed Desktop Mediumn</option>
+                                    </select>
+                                </p>
+                                <p class="group-input">
+                                    <label>Header Layout</label>
+                                    <select name="userparams[header_layout]">
+                                        <option value="default" >Default</option>
+                                    </select>
+                                </p>
+                                <p>
+                                    <input type="hidden" value="0" id="vesreset" name="vesreset"/>
+                                    <button value="Apply" class="btn btn-small" name="btn-save" type="submit">Apply</button>
+                                    <a class="btn btn-small" href="javascript:;" onclick="jQuery('#vesreset').val(1);jQuery('#paneltool_form').submit() "><span>Reset</span></a>
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="paneltool editortool">
+                    <div class="panelbutton">
+                        <i class="glyphicon glyphicon-adjust"></i>
+                    </div>
+                    <div class="panelcontent editortool">
+                        <div class="panelinner">
+                            <h4>Live Theme Editor</h4>
+                            <div class="clearfix" id="customize-body">
+                                <ul class="nav nav-tabs" id="myTab">
+                                    <li><a href="#tab-selectors">Layout Selectors</a></li>
+                                    <li><a href="#tab-elements">Layout Elements</a></li>
+                                </ul>
+                                <div class="tab-content" >
+                                    <div class="tab-pane" id="tab-selectors">
+                                        <div class="accordion">
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapsebody">
+                                                    Body Content	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapsebody" class="accordion-body panel-collapse collapse  in ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Background Color</label>
+                                                            <input value="" size="10" name="customize[body][]" data-match="body" type="text" class="input-setting" data-selector="body" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group background-images">
+                                                            <label>Background Image</label>
+                                                            <a class="clear-bg label label-success" href="#">Clear</a>
+                                                            <input value="" name="customize[body][]" data-match="body" type="text" class="input-setting" data-selector="body" data-attrs="background-image">
+                                                            <div class="clearfix"></div>
+                                                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/images/patterns/</em></p>
+                                                            <div class="bi-wrapper clearfix">
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png" data-val="../../img/patterns/pattern1.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png" data-val="../../img/patterns/pattern10.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png" data-val="../../img/patterns/pattern11.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png" data-val="../../img/patterns/pattern12.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png" data-val="../../img/patterns/pattern13.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png" data-val="../../img/patterns/pattern14.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png" data-val="../../img/patterns/pattern15.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png" data-val="../../img/patterns/pattern16.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png" data-val="../../img/patterns/pattern2.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png" data-val="../../img/patterns/pattern3.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png" data-val="../../img/patterns/pattern4.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png" data-val="../../img/patterns/pattern5.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png" data-val="../../img/patterns/pattern6.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png" data-val="../../img/patterns/pattern7.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png" data-val="../../img/patterns/pattern8.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png" data-val="../../img/patterns/pattern9.png"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Background Content</label>
+                                                            <input value="" size="10" name="customize[body][]" data-match="body" type="text" class="input-setting" data-selector="body #page" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group background-images">
+                                                            <label>Background Image</label>
+                                                            <a class="clear-bg label label-success" href="#">Clear</a>
+                                                            <input value="" name="customize[body][]" data-match="body" type="text" class="input-setting" data-selector="body #page" data-attrs="background-image">
+                                                            <div class="clearfix"></div>
+                                                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/images/patterns/</em></p>
+                                                            <div class="bi-wrapper clearfix">
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png" data-val="../../img/patterns/pattern1.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png" data-val="../../img/patterns/pattern10.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png" data-val="../../img/patterns/pattern11.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png" data-val="../../img/patterns/pattern12.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png" data-val="../../img/patterns/pattern13.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png" data-val="../../img/patterns/pattern14.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png" data-val="../../img/patterns/pattern15.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png" data-val="../../img/patterns/pattern16.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png" data-val="../../img/patterns/pattern2.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png" data-val="../../img/patterns/pattern3.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png" data-val="../../img/patterns/pattern4.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png" data-val="../../img/patterns/pattern5.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png" data-val="../../img/patterns/pattern6.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png" data-val="../../img/patterns/pattern7.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png" data-val="../../img/patterns/pattern8.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png" data-val="../../img/patterns/pattern9.png"></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Font-Size</label>
+                                                            <select name="customize[body][]" data-match="body" class="input-setting" data-selector="body #page" data-attrs="font-size">
+                                                                <option value="">Inherit</option>
+                                                                <option value="9">9</option>
+                                                                <option value="10">10</option>
+                                                                <option value="11">11</option>
+                                                                <option value="12">12</option>
+                                                                <option value="13">13</option>
+                                                                <option value="14">14</option>
+                                                                <option value="15">15</option>
+                                                                <option value="16">16</option>
+                                                            </select>
+                                                            <a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Text</label>
+                                                            <input value="" size="10" name="customize[body][]" data-match="body" type="text" class="input-setting" data-selector="body #page" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Link Color</label>
+                                                            <input value="" size="10" name="customize[body][]" data-match="body" type="text" class="input-setting" data-selector="body #page a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Link Hover Color</label>
+                                                            <input value="" size="10" name="customize[body][]" data-match="body" type="text" class="input-setting" data-selector="a:hover" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapsetopbar">
+                                                    TopBar	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapsetopbar" class="accordion-body panel-collapse collapse ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Background Color</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector="#topbar" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Text</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector="#topbar" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Border Color</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector="#topbar" data-attrs="border-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector="#topbar a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link Hover</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector="#topbar a:hover" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Background Icon</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector=".cart-inner .fa" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Background Input Search</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector="#topbar .form-search #search" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Text Input Search</label>
+                                                            <input value="" size="10" name="customize[topbar][]" data-match="topbar" type="text" class="input-setting" data-selector="#topbar .form-search #search" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapseheader-main">
+                                                    Header	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapseheader-main" class="accordion-body panel-collapse collapse ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Background Color</label>
+                                                            <input value="" size="10" name="customize[header-main][]" data-match="header-main" type="text" class="input-setting" data-selector="#header-main" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Text</label>
+                                                            <input value="" size="10" name="customize[header-main][]" data-match="header-main" type="text" class="input-setting" data-selector="#header-main" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link</label>
+                                                            <input value="" size="10" name="customize[header-main][]" data-match="header-main" type="text" class="input-setting" data-selector="#header-main a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link Hover</label>
+                                                            <input value="" size="10" name="customize[header-main][]" data-match="header-main" type="text" class="input-setting" data-selector="#header-main a:hover" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapseves-mainnav">
+                                                    MainMenu	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapseves-mainnav" class="accordion-body panel-collapse collapse ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Background Color</label>
+                                                            <input value="" size="10" name="customize[ves-mainnav][]" data-match="ves-mainnav" type="text" class="input-setting" data-selector="#ves-mainnav" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link</label>
+                                                            <input value="" size="10" name="customize[ves-mainnav][]" data-match="ves-mainnav" type="text" class="input-setting" data-selector="#ves-mainnav .navbar-nav > li > a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link Hover</label>
+                                                            <input value="" size="10" name="customize[ves-mainnav][]" data-match="ves-mainnav" type="text" class="input-setting" data-selector="#ves-mainnav .navbar-nav > li > a:hover" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Border Color</label>
+                                                            <input value="" size="10" name="customize[ves-mainnav][]" data-match="ves-mainnav" type="text" class="input-setting" data-selector="#ves-mainnav .navbar-inverse" data-attrs="border-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Dropdow - Background Color</label>
+                                                            <input value="" size="10" name="customize[ves-mainnav][]" data-match="ves-mainnav" type="text" class="input-setting" data-selector="#ves-mainnav .navbar-nav > li .dropdown-menu" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapsefooter">
+                                                    Footer	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapsefooter" class="accordion-body panel-collapse collapse ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Background Color</label>
+                                                            <input value="" size="10" name="customize[footer][]" data-match="footer" type="text" class="input-setting" data-selector="#footer" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Text</label>
+                                                            <input value="" size="10" name="customize[footer][]" data-match="footer" type="text" class="input-setting" data-selector="#footer, #footer span" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Icon Social</label>
+                                                            <input value="" size="10" name="customize[footer][]" data-match="footer" type="text" class="input-setting" data-selector=".social .fa" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Title</label>
+                                                            <input value="" size="10" name="customize[footer][]" data-match="footer" type="text" class="input-setting" data-selector=".custom-abs h3, .custom-footer-links h3" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link</label>
+                                                            <input value="" size="10" name="customize[footer][]" data-match="footer" type="text" class="input-setting" data-selector="#footer a, .custom-links a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link Hover</label>
+                                                            <input value="" size="10" name="customize[footer][]" data-match="footer" type="text" class="input-setting" data-selector="#footer a:hover, .custom-links a:hover" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group background-images">
+                                                            <label>Background Image</label>
+                                                            <a class="clear-bg label label-success" href="#">Clear</a>
+                                                            <input value="" name="customize[footer][]" data-match="footer" type="text" class="input-setting" data-selector="#footer" data-attrs="background-image">
+                                                            <div class="clearfix"></div>
+                                                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/images/patterns/</em></p>
+                                                            <div class="bi-wrapper clearfix">
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png" data-val="../../img/patterns/pattern1.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png" data-val="../../img/patterns/pattern10.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png" data-val="../../img/patterns/pattern11.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png" data-val="../../img/patterns/pattern12.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png" data-val="../../img/patterns/pattern13.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png" data-val="../../img/patterns/pattern14.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png" data-val="../../img/patterns/pattern15.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png" data-val="../../img/patterns/pattern16.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png" data-val="../../img/patterns/pattern2.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png" data-val="../../img/patterns/pattern3.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png" data-val="../../img/patterns/pattern4.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png" data-val="../../img/patterns/pattern5.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png" data-val="../../img/patterns/pattern6.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png" data-val="../../img/patterns/pattern7.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png" data-val="../../img/patterns/pattern8.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png" data-val="../../img/patterns/pattern9.png"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapsepowered">
+                                                    Powered	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapsepowered" class="accordion-body panel-collapse collapse ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Background Color</label>
+                                                            <input value="" size="10" name="customize[powered][]" data-match="powered" type="text" class="input-setting" data-selector="#powered" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Text</label>
+                                                            <input value="" size="10" name="customize[powered][]" data-match="powered" type="text" class="input-setting" data-selector="#powered" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link</label>
+                                                            <input value="" size="10" name="customize[powered][]" data-match="powered" type="text" class="input-setting" data-selector="#powered a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Link Hover</label>
+                                                            <input value="" size="10" name="customize[powered][]" data-match="powered" type="text" class="input-setting" data-selector="#powered a:hover" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group background-images">
+                                                            <label>Background Image</label>
+                                                            <a class="clear-bg label label-success" href="#">Clear</a>
+                                                            <input value="" name="customize[powered][]" data-match="powered" type="text" class="input-setting" data-selector="#powered" data-attrs="background-image">
+                                                            <div class="clearfix"></div>
+                                                            <p><em style="font-size:10px">Those Images in folder YOURTHEME/images/patterns/</em></p>
+                                                            <div class="bi-wrapper clearfix">
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern1.png" data-val="../../img/patterns/pattern1.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern10.png" data-val="../../img/patterns/pattern10.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern11.png" data-val="../../img/patterns/pattern11.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern12.png" data-val="../../img/patterns/pattern12.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern13.png" data-val="../../img/patterns/pattern13.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern14.png" data-val="../../img/patterns/pattern14.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern15.png" data-val="../../img/patterns/pattern15.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern16.png" data-val="../../img/patterns/pattern16.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern2.png" data-val="../../img/patterns/pattern2.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern3.png" data-val="../../img/patterns/pattern3.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern4.png" data-val="../../img/patterns/pattern4.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern5.png" data-val="../../img/patterns/pattern5.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern6.png" data-val="../../img/patterns/pattern6.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern7.png" data-val="../../img/patterns/pattern7.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern8.png" data-val="../../img/patterns/pattern8.png"></div>
+                                                                <div style="background:url('/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png') no-repeat center center;" class="pull-left" data-image="/superstore/skin/frontend/default/ves_superstore/images/pattern/pattern9.png" data-val="../../img/patterns/pattern9.png"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="tab-elements">
+                                        <div class="accordion">
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapseproduct">
+                                                    Products	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapseproduct" class="accordion-body panel-collapse collapse  in ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Color Price</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".product-block .price" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Special Price</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".special-price .price" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Price Old</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".old-price .price" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Price Tax</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".price .price-tax" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>BgColor Cart</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".product-block .actions button.btn-cart" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Cart</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".product-block .actions button.btn-cart" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>BgColor Wishlist</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".product-block .actions .add-to-links li.wishlist" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Wishlist Icon</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".product-block .actions .add-to-links li.wishlist .fa" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>BgColor Compare</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".product-block .actions .add-to-links li.compare" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Color Compare Icon</label>
+                                                            <input value="" size="10" name="customize[product][]" data-match="product" type="text" class="input-setting" data-selector=".product-block .actions .add-to-links li.compare .fa" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-group  panel panel-default clearfix">
+                                                <div class="accordion-heading panel-heading">
+                                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#custom-accordion" href="#collapsemodules">
+                                                    Modules in Sidebar	 
+                                                    </a>
+                                                </div>
+                                                <div id="collapsemodules" class="accordion-body panel-collapse collapse ">
+                                                    <div class="accordion-inner panel-body clearfix">
+                                                        <div class="form-group">
+                                                            <label>Heading Background</label>
+                                                            <input value="" size="10" name="customize[modules][]" data-match="modules" type="text" class="input-setting" data-selector=".sidebar .block-title" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Heading Color</label>
+                                                            <input value="" size="10" name="customize[modules][]" data-match="modules" type="text" class="input-setting" data-selector=".sidebar .block-title strong span" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Content Background</label>
+                                                            <input value="" size="10" name="customize[modules][]" data-match="modules" type="text" class="input-setting" data-selector=".sidebar .block-content" data-attrs="background-color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Content Color</label>
+                                                            <input value="" size="10" name="customize[modules][]" data-match="modules" type="text" class="input-setting" data-selector=".sidebar .block-content" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Link Color</label>
+                                                            <input value="" size="10" name="customize[modules][]" data-match="modules" type="text" class="input-setting" data-selector=".block-layered-nav dd a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Title Color</label>
+                                                            <input value="" size="10" name="customize[modules][]" data-match="modules" type="text" class="input-setting" data-selector=".block-layered-nav dt, #ves-accordion > li > a" data-attrs="color"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <label>Border Color</label>
+                                                            <input value="" size="10" name="customize[modules][]" data-match="modules" type="text" class="input-setting" data-selector=".sidebar .block" data-attrs="border"><a href="#" class="clear-bg label label-success">Clear</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panelbutton label-customize"></div>
+                </div>
+            </div>
+            <script type="text/javascript">
+                jQuery('#myTab a').click(function (e) {
+                	e.preventDefault();
+                	jQuery(this).tab('show');
+                })
+                jQuery('#myTab a:first').tab('show'); 
+                 
+                
+                var $MAINCONTAINER = jQuery("html");
+                
+                /**
+                 * BACKGROUND-IMAGE SELECTION
+                 */
+                jQuery(".background-images").each( function(){
+                	var $parent = this;
+                	var $input  = jQuery(".input-setting", $parent ); 
+                	jQuery(".bi-wrapper > div",this).click( function(){
+                		 $input.val( jQuery(this).data('val') ); 
+                		 jQuery('.bi-wrapper > div', $parent).removeClass('active');
+                		 jQuery(this).addClass('active');
+                
+                		 if( $input.data('selector') ){  
+                			jQuery($input.data('selector'), jQuery($MAINCONTAINER) ).css( $input.data('attrs'),'url('+ jQuery(this).data('image') +')' );
+                		 }
+                	} );
+                } ); 
+                
+                jQuery(".clear-bg").click( function(){
+                	var $parent = jQuery(this).parent();
+                	var $input  = jQuery(".input-setting", $parent ); 
+                	if( $input.val('') ) {
+                		if( $parent.hasClass("background-images") ) {
+                			jQuery('.bi-wrapper > div',$parent).removeClass('active');	
+                			jQuery($input.data('selector'),jQuery("#main-preview iframe").contents()).css( $input.data('attrs'),'none' );
+                		}else {
+                			$input.attr( 'style','' )	
+                		}
+                		jQuery($input.data('selector'), jQuery($MAINCONTAINER) ).css( $input.data('attrs'),'inherit' );
+                
+                	}	
+                	$input.val('');
+                
+                	return false;
+                } );
+                
+                
+                
+                 jQuery('.accordion-group input.input-setting').each( function(){
+                 	 var input = this;
+                 	 jQuery(input).attr('readonly','readonly');
+                 	 jQuery(input).ColorPicker({
+                 	 	onChange:function (hsb, hex, rgb) {
+                 	 		jQuery(input).css('backgroundColor', '#' + hex);
+                 	 		jQuery(input).val( hex );
+                 	 		if( jQuery(input).data('selector') ){  
+                				jQuery( $MAINCONTAINER ).find(jQuery(input).data('selector')).css( jQuery(input).data('attrs'),"#"+jQuery(input).val() )
+                			}
+                 	 	}
+                 	 });
+                	} );
+                 jQuery('.accordion-group select.input-setting').change( function(){
+                	var input = this; 
+                		if( jQuery(input).data('selector') ){  
+                		var ex = jQuery(input).data('attrs')=='font-size'?'px':"";
+                		jQuery( $MAINCONTAINER ).find(jQuery(input).data('selector')).css( jQuery(input).data('attrs'), jQuery(input).val() + ex);
+                	}
+                 } );
+                 
+                
+            </script>			            
+        </section>
+    </body>
+</html>
