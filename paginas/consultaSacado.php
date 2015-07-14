@@ -2,7 +2,7 @@
 if( isset( $_GET['acao'] ) && $_GET['acao'] = 'excluir' ){
 	$idSac = isset( $_GET['idSac'] ) ? intval( $_GET['idSac'] ) : '-1';
 	
-	$rsConsulta = mysqli_query($conexao,sprintf("SELECT * FROM `titulos` WHERE `sac_id` = '%s'", $idSac));
+	$rsConsulta = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE * FROM `titulos` WHERE `sac_id` = '%s'", $idSac));
 
 	if(mysqli_num_rows($rsConsulta) > 0 ){
 		
@@ -30,11 +30,11 @@ $color1 = "#E2FFE3";
 $color2 = "#F9F9F9";
 $color = $color1;
 // technocurve arc 3 php bv block1/3 end
-$query_Recordset1 = "SELECT * FROM sacado ORDER BY sac_nome ASC";
+$query_Recordset1 = "SELECT SQL_NO_CACHE * FROM sacado ORDER BY sac_nome ASC";
 
 if(isset($_GET['b'])){
 	
-	$query_Recordset1 = sprintf("SELECT * FROM sacado WHERE sac_nome LIKE '%s' ORDER BY  sac_nome ASC", "%". rawurldecode( $_GET['b'] )  ."%" );
+	$query_Recordset1 = sprintf("SELECT SQL_NO_CACHE * FROM sacado WHERE sac_nome LIKE '%s' ORDER BY  sac_nome ASC", "%". rawurldecode( $_GET['b'] )  ."%" );
 }
 
 

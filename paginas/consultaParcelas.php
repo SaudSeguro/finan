@@ -5,12 +5,12 @@ $color2 = "#F9F9F9";
 $color = $color1;
 
 // technocurve arc 3 php bv block1/3 end
-$query_Recordset1 = "SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista WHERE p.situacao_parcela = 'ab' ORDER BY s.sac_nome ASC, p.venc_parcela ASC LIMIT 30";
+$query_Recordset1 = "SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista WHERE p.situacao_parcela = 'ab' ORDER BY s.sac_nome ASC, p.venc_parcela ASC LIMIT 30";
 
 
 If(isset($_GET['DataVencida'])) {
 	
-	$query_Recordset1 = sprintf("SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista WHERE p.situacao_parcela = 'ab' AND p.venc_parcela < '%s' ORDER BY s.sac_nome ASC, p.venc_parcela ASC LIMIT 30", date('Y-m-d') );
+	$query_Recordset1 = sprintf("SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista WHERE p.situacao_parcela = 'ab' AND p.venc_parcela < '%s' ORDER BY s.sac_nome ASC, p.venc_parcela ASC LIMIT 30", date('Y-m-d') );
 	
 }
 
@@ -45,13 +45,13 @@ if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 } elseif( isset( $_GET['acao'] ) && $_GET['acao'] == 'mostrar' ){
 	
 	$idTitulo = isset( $_GET['idTitulo'] ) ? intval( $_GET['idTitulo'] ) : '-1';
-	$query_Recordset1 = sprintf("SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista WHERE p.titulo_id = '%s' ORDER BY s.sac_nome ASC LIMIT 30",$idTitulo );
+	$query_Recordset1 = sprintf("SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista WHERE p.titulo_id = '%s' ORDER BY s.sac_nome ASC LIMIT 30",$idTitulo );
 	
 } 
 
 if(isset($_GET['b'])){
 	
-	$sql = "SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.situacao_parcela, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista ";
+	$sql = "SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.venc_parcela, p.id_parcela, p.valor_parcela, p.titulo_id, p.situacao_parcela, p.`numero_documento`, p.`situacao_parcela`, e.pass_nome FROM parcela_titulo AS p INNER JOIN titulos AS t on p.titulo_id=t.titulo_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=t.id_especialista ";
 	
 	if(!empty($_GET['b']) || !empty($_GET['dataInicio']) || !empty($_GET['dataFim']) || !empty($_GET['resp']) || !empty($_GET['TipoData'])) {
 		$sql .= "WHERE";
@@ -112,7 +112,7 @@ if(mysqli_num_rows($Recordset1) == 0 ){
 				</script>";
 }
 
-$query_password = "SELECT * FROM password where especialista='S'";
+$query_password = "SELECT SQL_NO_CACHE * FROM password where especialista='S'";
 $password = mysqli_query($conexao,$query_password) or die(mysqli_error());
 ?>
 <div id="boxLogin">
@@ -279,7 +279,7 @@ echo " style=\"background-color:$color;\"";
           <td height="40">Duplicatas vencidas: R$: <strong><?php 
 		  
 		  
-			$sql = mysqli_query($conexao,sprintf("SELECT SUM(valor_parcela) AS soma FROM parcela_titulo WHERE `situacao_parcela` = 'ab' AND `venc_parcela` < '%s'",  date('Y-m-d')));
+			$sql = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE SUM(valor_parcela) AS soma FROM parcela_titulo WHERE `situacao_parcela` = 'ab' AND `venc_parcela` < '%s'",  date('Y-m-d')));
 			
 			$valor_total = mysqli_fetch_array($sql);
 		  
@@ -290,7 +290,7 @@ echo " style=\"background-color:$color;\"";
           <td>Duplicatas vincendo em menos de 07 dias: R$: <strong><?php 
 		  
 		  
-			$sql = mysqli_query($conexao,sprintf("SELECT SUM(valor_parcela) AS soma FROM parcela_titulo WHERE situacao_parcela = 'ab' AND `venc_parcela` >= '%s' AND `venc_parcela` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
+			$sql = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE SUM(valor_parcela) AS soma FROM parcela_titulo WHERE situacao_parcela = 'ab' AND `venc_parcela` >= '%s' AND `venc_parcela` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
 		  
 			$valor_total = mysqli_fetch_array($sql);		  
 			echo number_format( $valor_total["soma"], 2,",","." );

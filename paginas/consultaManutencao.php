@@ -5,12 +5,12 @@ $color2 = "#F9F9F9";
 $color = $color1;
 
 // technocurve arc 3 php bv block1/3 end
-$query_Recordset1 = "SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id LEFT JOIN sacado AS s ON s.sac_id=p.sac_id RIGHT JOIN `password` AS e ON e.pass_id=m.id_especialista WHERE p.parcela_situacao = 'ab' ORDER BY s.sac_nome ASC, p.parcela_vencimento ASC LIMIT 200";
+$query_Recordset1 = "SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id LEFT JOIN sacado AS s ON s.sac_id=p.sac_id RIGHT JOIN `password` AS e ON e.pass_id=m.id_especialista WHERE p.parcela_situacao = 'ab' ORDER BY s.sac_nome ASC, p.parcela_vencimento ASC LIMIT 200";
 
 
 If(isset($_GET['DataVencida'])) {
 	
-	$query_Recordset1 = sprintf("SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=m.id_especialista WHERE p.parcela_situacao = 'ab' AND p.parcela_vencimento < '%s' ORDER BY s.sac_nome ASC, p.parcela_vencimento ASC", date('Y-m-d') );
+	$query_Recordset1 = sprintf("SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=m.id_especialista WHERE p.parcela_situacao = 'ab' AND p.parcela_vencimento < '%s' ORDER BY s.sac_nome ASC, p.parcela_vencimento ASC", date('Y-m-d') );
 	
 }
 
@@ -44,13 +44,13 @@ if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 } elseif( isset( $_GET['acao'] ) && $_GET['acao'] == 'mostrar' ){
 	
 	$idManutencao = isset( $_GET['idManutencao'] ) ? intval( $_GET['idManutencao'] ) : '-1';
-	$query_Recordset1 = sprintf("SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=m.id_especialista WHERE p.manutencao_id = '%s' ORDER BY s.sac_nome ASC, p.parcela_vencimento",$idManutencao );
+	$query_Recordset1 = sprintf("SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=m.id_especialista WHERE p.manutencao_id = '%s' ORDER BY s.sac_nome ASC, p.parcela_vencimento",$idManutencao );
 	
 } 
 
 if(isset($_GET['b'])){
 	
-	$sql = "SELECT s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.parcela_situacao, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=m.id_especialista ";
+	$sql = "SELECT SQL_NO_CACHE s.sac_nome, s.sac_telefone, s.sac_cidade, s.sac_estado, p.parcela_vencimento, p.numero_parcela, m.manutencao_id, m.qtde_parcela_manutencao, p.parcela_valor, p.parcela_id, p.parcela_situacao, p.`numero_parcela`, p.`parcela_situacao`, e.pass_nome FROM parcela_manutencao AS p INNER JOIN manutencao AS m on p.manutencao_id=m.manutencao_id INNER JOIN sacado AS s ON s.sac_id=p.sac_id LEFT JOIN `password` AS e ON e.pass_id=m.id_especialista ";
 	
 	if(!empty($_GET['b']) || !empty($_GET['dataInicio']) || !empty($_GET['dataFim']) || !empty($_GET['resp']) || !empty($_GET['TipoData'])) {
 		$sql .= "WHERE";
@@ -111,7 +111,7 @@ if(mysqli_num_rows($Recordset1) == 0 ){
 				</script>";
 }
 
-$query_password = "SELECT * FROM password where especialista='S'";
+$query_password = "SELECT SQL_NO_CACHE * FROM password where especialista='S'";
 $password = mysqli_query($conexao,$query_password) or die(mysqli_error());
 ?>
 <div id="boxLogin">
@@ -293,7 +293,7 @@ echo " style=\"background-color:$color;\"";
           <td height="40">Duplicatas vencidas: R$: <strong><?php 
 		  
 		  
-			$sql = mysqli_query($conexao,sprintf("SELECT SUM(parcela_valor) AS soma FROM parcela_manutencao WHERE `parcela_situacao` = 'ab' AND `parcela_vencimento` < '%s'",  date('Y-m-d')));
+			$sql = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE SUM(parcela_valor) AS soma FROM parcela_manutencao WHERE `parcela_situacao` = 'ab' AND `parcela_vencimento` < '%s'",  date('Y-m-d')));
 			
 			$valor_total = mysqli_fetch_array($sql);
 		  
@@ -304,7 +304,7 @@ echo " style=\"background-color:$color;\"";
           <td>Duplicatas vincendo em menos de 07 dias: R$: <strong><?php 
 		  
 		  
-			$sql = mysqli_query($conexao,sprintf("SELECT SUM(parcela_valor) AS soma FROM parcela_manutencao WHERE parcela_situacao = 'ab' AND `parcela_vencimento` >= '%s' AND `parcela_vencimento` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
+			$sql = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE SUM(parcela_valor) AS soma FROM parcela_manutencao WHERE parcela_situacao = 'ab' AND `parcela_vencimento` >= '%s' AND `parcela_vencimento` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
 		  
 			$valor_total = mysqli_fetch_array($sql);		  
 			echo number_format( $valor_total["soma"], 2,",","." );

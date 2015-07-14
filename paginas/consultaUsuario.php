@@ -14,9 +14,9 @@ $color2 = "#D1F9DB";
 $color = $color1;
 // technocurve arc 3 php bv block1/3 end
 if($dados["pass_nivel"]==3){
-	$query_Recordset1 = "SELECT * FROM password ORDER BY pass_login ASC";
+	$query_Recordset1 = "SELECT SQL_NO_CACHE * FROM password ORDER BY pass_login ASC";
 } else {
-	$query_Recordset1 = "SELECT * FROM password WHERE pass_nivel < '3' ORDER BY pass_login ASC";
+	$query_Recordset1 = "SELECT SQL_NO_CACHE * FROM password WHERE pass_nivel < '3' ORDER BY pass_login ASC";
 }
 $Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
 $row_Recordset1 = mysqli_fetch_assoc($Recordset1);
