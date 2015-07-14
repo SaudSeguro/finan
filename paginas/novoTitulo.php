@@ -27,8 +27,8 @@ VALUES ('%s', '%s', '%s', '%s', NOW(), '%s', '%s', '%s')",
 						$_POST['titulo_observacao'],
 						$_POST['titulo_menor']);
 
-	$Result1 = mysql_query($insertSQL, $conexao) or die(mysql_error());
-	$numero_titulo = mysql_insert_id();
+	$Result1 = mysqli_query($conexao,$insertSQL) or die(mysqli_error());
+	$numero_titulo = mysqli_insert_id($conexao);
 	
 	$dataVencimento = $_POST['titulo_data_vencimento'];
 	
@@ -44,7 +44,7 @@ VALUES ('%s', '%s', '%s', '%s', NOW(), '%s', '%s', '%s')",
 		if(!empty($data)) {
 			$doc=$doc+1;
 			$numeroDoc = "0$doc/0$totalparcela";
-			@mysql_query(sprintf("INSERT INTO `parcela_titulo` (`titulo_id`, `sac_id`, `id_especialista`, `venc_parcela`, `valor_parcela`, `numero_documento`) VALUES ('%s', '%s', '%s', '%s', '%s', '%s')",
+			mysqli_query($conexao,sprintf("INSERT INTO `parcela_titulo` (`titulo_id`, `sac_id`, `id_especialista`, `venc_parcela`, `valor_parcela`, `numero_documento`) VALUES ('%s', '%s', '%s', '%s', '%s', '%s')",
 						$numero_titulo,
 						$_POST['sac_id'],
 						$_POST['responsavel'],
@@ -63,10 +63,10 @@ VALUES ('%s', '%s', '%s', '%s', NOW(), '%s', '%s', '%s')",
  }
 
 $query_sacado = "SELECT * FROM sacado ORDER BY `sac_nome` ASC";
-$sacado = mysql_query($query_sacado, $conexao) or die(mysql_error());
+$sacado = mysqli_query($conexao,$query_sacado) or die(mysqli_error());
 
 $query_password = "SELECT * FROM password where especialista='S'";
-$password = mysql_query($query_password, $conexao) or die(mysql_error());
+$password = mysqli_query($conexao,$query_password) or die(mysqli_error());
 ?>
 <script language="javascript">
 function enviardados(){
@@ -198,7 +198,7 @@ $(document).ready( function() {
       <select name="sac_id" id="sac_id">
         <option value="">Selecione</option>
 		<?php
-		while( $row_sacado  = mysql_fetch_assoc($sacado)){
+		while( $row_sacado  = mysqli_fetch_assoc($sacado)){
 		?>
         <option value="<?php echo $row_sacado['sac_id']; ?>"><?php echo mb_strtoupper( $row_sacado['sac_nome'] ); ?></option>
 		<?php
@@ -212,7 +212,7 @@ $(document).ready( function() {
       <td align="left"><select name="responsavel" id="responsavel">
         <option value="">Selecione</option>
         <?php
-		while( $row_password  = mysql_fetch_assoc($password)){
+		while( $row_password  = mysqli_fetch_assoc($password)){
 		?>
         <option value="<?php echo $row_password['pass_id']; ?>"><?php echo mb_strtoupper( $row_password['pass_nome'] ); ?></option>
         <?php
@@ -281,6 +281,6 @@ $(document).ready( function() {
   </center>
 </form>
 <?php
-mysql_free_result($sacado);
-mysql_free_result($password);
+mysqli_free_result($sacado);
+mysqli_free_result($password);
 ?>

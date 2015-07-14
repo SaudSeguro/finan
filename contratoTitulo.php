@@ -1,5 +1,5 @@
 ﻿<?php
-require_once('Connections/conexao.php');
+require_once('config.php');
 require_once('funcao_numero_extenso.php'); 
 
 $colname_res = "-1";
@@ -7,11 +7,10 @@ if (isset($_GET['idTitulo'])) {
   $colname_res = (get_magic_quotes_gpc()) ? $_GET['idTitulo'] : addslashes($_GET['idTitulo']);
 }
 
-mysql_select_db($database_conexao, $conexao);
 $query_res = sprintf("SELECT * FROM titulos AS t INNER JOIN sacado AS s ON t.sac_id=s.sac_id WHERE t.titulo_id = %s", $colname_res);
-$res = mysql_query($query_res, $conexao) or die(mysql_error());
-$row_res = mysql_fetch_assoc($res);
-$totalRows_res = mysql_num_rows($res);
+$res = mysqli_query($conexao,$query_res) or die(mysqli_error());
+$row_res = mysqli_fetch_assoc($res);
+$totalRows_res = mysqli_num_rows($res);
 
 if (isset($_GET['idParcela'])) {
   $colname_par = (get_magic_quotes_gpc()) ? $_GET['idParcela'] : addslashes($_GET['idParcela']);
@@ -19,9 +18,9 @@ if (isset($_GET['idParcela'])) {
 
 $query_par = sprintf("SELECT * FROM parcela_titulo WHERE id_parcela = '%s'", $colname_par);
 
-$par = mysql_query($query_par, $conexao) or die(mysql_error());
+$par = mysqli_query($conexao,$query_par) or die(mysqli_error());
 
-$row_par = mysql_fetch_assoc($par);                 
+$row_par = mysqli_fetch_assoc($par);                 
 		
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -29,6 +28,11 @@ $row_par = mysql_fetch_assoc($par);
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>SaudSeguro - Promissória Nº <?php echo $row_par['numero_documento']; ?></title>
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
 <link href="promissoria_style.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
@@ -183,5 +187,5 @@ $row_par = mysql_fetch_assoc($par);
 </body>
 </html>
 <?php
-mysql_free_result($res);
+mysqli_free_result($res);
 ?>

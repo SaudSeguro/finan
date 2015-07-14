@@ -13,17 +13,17 @@ $pasta = sprintf("./backupFinan/%s/", $date);
 $back = fopen($pasta . date("d-m-Y_H").".sql","w");
 
 // aqui, listo todas as tabelas daquele banco selecionado acima
-$res = @mysql_list_tables(BANCO) or die(mysql_error());
+$res = mysqli_list_tables(BANCO) or die(mysqli_error());
 
 // resgato cada uma das tabelas, num loop
-while ($row = @mysql_fetch_row($res)) {
+while ($row = mysqli_fetch_row($res)) {
 $table = $row[0]; 
 // usando a função SHOW CREATE TABLE do mysql, exibo as funções de criação da tabela, 
 // exportando também isso, para nosso arquivo de backup
-$res2 = @mysql_query("SHOW CREATE TABLE $table");
+$res2 = mysqli_query($conexao,"SHOW CREATE TABLE $table");
 // digo que o comando acima deve ser feito em cada uma das tabelas
 
-	while ( $lin = @mysql_fetch_row($res2)){ 
+	while ( $lin = mysqli_fetch_row($res2)){ 
 		// instruções que serão gravadas no arquivo de backup
 		fwrite($back,"\n#\n# Criação da Tabela : $table\n#\n\n");
 		fwrite($back,"$lin[1] ;\n\n#\n# Dados a serem incluídos na tabela\n#\n\n");
@@ -31,8 +31,8 @@ $res2 = @mysql_query("SHOW CREATE TABLE $table");
 
 // seleciono todos os dados de cada tabela pega no while acima
 // e depois gravo no arquivo .sql, usando comandos de insert
-		$res3 = mysql_query("SELECT * FROM $table");
-		while($r=mysql_fetch_row($res3)){ 
+		$res3 = mysqli_query($conexao,"SELECT * FROM $table");
+		while($r=mysqli_fetch_row($res3)){ 
 			$sql="INSERT INTO $table VALUES (";
 
 
@@ -42,7 +42,7 @@ $res2 = @mysql_query("SHOW CREATE TABLE $table");
 		// por aspas simples, colocando espaços e quebras de linha ao final de cada registro, etc
 		// deixando o arquivo pronto para ser importado em outro banco
    
-				for($j=0; $j<mysql_num_fields($res3);$j++)
+				for($j=0; $j<mysqli_num_fields($res3);$j++)
 		        {
 		            if(!isset($r[$j]))
 		                $sql .= " NULL,";
@@ -60,10 +60,10 @@ $res2 = @mysql_query("SHOW CREATE TABLE $table");
 			fwrite($back,$sql);
 		}
 		
-		@mysql_free_result($res3);
+		mysqli_free_result($res3);
 	}
 	
-	@mysql_free_result($res2);
+	mysqli_free_result($res2);
 }
 
 // fechar o arquivo que foi gravado
@@ -140,6 +140,6 @@ $file_del = sprintf("./backupFinan/%s",  date('d-m-Y', strtotime("-10 days")));
 if(file_exists($file_del)){
 	removeTreeRec($file_del);
 }
-@mysql_free_result($res);
-@mysql_close($conexao);
+mysqli_free_result($res);
+mysqli_close($conexao);
 ?>

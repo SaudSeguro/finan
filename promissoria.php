@@ -1,25 +1,25 @@
-<?php require_once('Connections/conexao.php'); ?>
+<?php require_once('config.php'); ?>
 <?php
 $colname_res = "-1";
 if (isset($_GET['id'])) {
   $colname_res = (get_magic_quotes_gpc()) ? $_GET['id'] : addslashes($_GET['id']);
 }
-mysql_select_db($database_conexao, $conexao);
+
 $query_res = sprintf("SELECT * FROM titulos AS t INNER JOIN sacado AS s ON t.sac_id=s.sac_id WHERE t.titulo_id = %s", $colname_res);
-$res = mysql_query($query_res, $conexao) or die(mysql_error());
-$row_res = mysql_fetch_assoc($res);
-$totalRows_res = mysql_num_rows($res);
+$res = mysqli_query($conexao,$query_res) or die(mysqli_error());
+$row_res = mysqli_fetch_assoc($res);
+$totalRows_res = mysqli_num_rows($res);
 
 $query_par = sprintf("SELECT * FROM parcela_titulo WHERE titulo_id = '%s'", $colname_res);
 
-$par = mysql_query($query_par, $conexao) or die(mysql_error());
+$par = mysqli_query($conexao,$query_par) or die(mysqli_error());
 
                   
 		$htmlParcela = '<tr>
-                    <td align="center" class="parcela">Qtde. parcela(s): <b>'. mysql_num_rows($par) .'x </b></td>
+                    <td align="center" class="parcela">Qtde. parcela(s): <b>'. mysqli_num_rows($par) .'x </b></td>
                   </tr>'; 
                 $i=1;
-				while($row_par = mysql_fetch_assoc($par)) { 
+				while($row_par = mysqli_fetch_assoc($par)) { 
 				  $htmlParcela .= '<tr>
                     <td align="center" class="parcela">'.  $i++ .'ª Parcela Venc.: <strong>'. date('d/m/Y', strtotime( $row_par['venc_parcela'] )). " - R$: ". number_format( $row_par['valor_parcela'] , 2,",",".") .'</strong></td>
                   </tr>';
@@ -32,8 +32,14 @@ $par = mysql_query($query_par, $conexao) or die(mysql_error());
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <title>SaudSeguro - Promissória Nº <?php echo $row_res['titulo_id']; ?></title>
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
 <link href="promissoria_style.css" rel="stylesheet" type="text/css" />
 <style type="text/css">
 <!--
@@ -163,5 +169,5 @@ $par = mysql_query($query_par, $conexao) or die(mysql_error());
 </body>
 </html>
 <?php
-mysql_free_result($res);
+mysqli_free_result($res);
 ?>

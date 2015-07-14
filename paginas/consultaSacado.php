@@ -2,9 +2,9 @@
 if( isset( $_GET['acao'] ) && $_GET['acao'] = 'excluir' ){
 	$idSac = isset( $_GET['idSac'] ) ? intval( $_GET['idSac'] ) : '-1';
 	
-	$rsConsulta = mysql_query(sprintf("SELECT * FROM `titulos` WHERE `sac_id` = '%s'", $idSac));
+	$rsConsulta = mysqli_query($conexao,sprintf("SELECT * FROM `titulos` WHERE `sac_id` = '%s'", $idSac));
 
-	if(mysql_num_rows($rsConsulta) > 0 ){
+	if(mysqli_num_rows($rsConsulta) > 0 ){
 		
 		echo "<script type=\"text/javascript\">
 						alert(\"Não é possível excluir este sacado, há títulos registrados!\");
@@ -13,11 +13,11 @@ if( isset( $_GET['acao'] ) && $_GET['acao'] = 'excluir' ){
 	
 	} else {
 	
-		@mysql_query(sprintf("DELETE FROM `sacado` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		@mysql_query(sprintf("DELETE FROM `manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		@mysql_query(sprintf("DELETE FROM `parcela_aparelho` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		@mysql_query(sprintf("DELETE FROM `parcela_manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		@mysql_query(sprintf("DELETE FROM `titulos` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query($conexao,sprintf("DELETE FROM `sacado` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query($conexao,sprintf("DELETE FROM `manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query($conexao,sprintf("DELETE FROM `parcela_aparelho` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query($conexao,sprintf("DELETE FROM `parcela_manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query($conexao,sprintf("DELETE FROM `titulos` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
 		echo "<script type=\"text/javascript\">
 						alert(\"Dados excluídos com sucesso!\");
 						location.href='?pag=consultaSacado';
@@ -34,14 +34,14 @@ $query_Recordset1 = "SELECT * FROM sacado ORDER BY sac_nome ASC";
 
 if(isset($_GET['b'])){
 	
-	$query_Recordset1 = sprintf("SELECT * FROM sacado WHERE sac_nome LIKE '%s' ORDER BY  sac_nome ASC", "%". $_GET['b'] ."%" );
+	$query_Recordset1 = sprintf("SELECT * FROM sacado WHERE sac_nome LIKE '%s' ORDER BY  sac_nome ASC", "%". rawurldecode( $_GET['b'] )  ."%" );
 }
 
 
-$Recordset1 = mysql_query($query_Recordset1, $conexao) or die(mysql_error());
-$row_Recordset1 = mysql_fetch_assoc($Recordset1);
+$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 
-if(mysql_num_rows($Recordset1) == 0 ){
+if(mysqli_num_rows($Recordset1) == 0 ){
 	echo "<script type=\"text/javascript\">
 				alert(\"Não nenhum registro encontrado!\");
 					location.href='default.php';
@@ -119,12 +119,12 @@ echo " style=\"background-color:$color\"";
 		}
 		// technocurve arc 3 php bv block3/3 end
 		?>
-          <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
+          <?php } while ($row_Recordset1 = mysqli_fetch_assoc($Recordset1)); ?>
       </table>
 	  </div>	  </td>
     </tr>
   </table>
 </div>
 <?php
-mysql_free_result($Recordset1);
+mysqli_free_result($Recordset1);
 ?>

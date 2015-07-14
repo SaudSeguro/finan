@@ -2,9 +2,9 @@
 if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 	$idTitulo = isset( $_GET['idTitulo'] ) ? intval( $_GET['idTitulo'] ) : '-1';
 	
-	@mysql_query(sprintf("DELETE FROM `titulos` WHERE (`titulo_id`='%s') LIMIT 1", $idTitulo));
+	mysqli_query($conexao,sprintf("DELETE FROM `titulos` WHERE (`titulo_id`='%s') LIMIT 1", $idTitulo));
 		
-	@mysql_query(sprintf("DELETE FROM `parcela_titulo` WHERE (`titulo_id`='%s')", $idTitulo));
+	mysqli_query($conexao,sprintf("DELETE FROM `parcela_titulo` WHERE (`titulo_id`='%s')", $idTitulo));
 		
 	echo "<script type=\"text/javascript\">
 			alert(\"Dados excluídos com sucesso!\");
@@ -34,7 +34,7 @@ if(isset($_GET['b'])){
 	}
 	
 	if(!empty($_GET['b'])) {
-		$sql .= sprintf(" s.sac_nome LIKE '%s' ", "%". $_GET['b'] ."%" );
+		$sql .= sprintf(" s.sac_nome LIKE '%s' ", "%". rawurldecode( $_GET['b'] ) ."%" );
 	}
 	
 	if(!empty($_GET['dataFim']) && !empty($_GET['dataInicio'])){
@@ -61,10 +61,10 @@ if(isset($_GET['b'])){
 
 }
 
-$Recordset1 = mysql_query($query_Recordset1, $conexao) or die(mysql_error());
-$row_Recordset1 = mysql_fetch_assoc($Recordset1);
+$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 
-if(mysql_num_rows($Recordset1) == 0 ){
+if(mysqli_num_rows($Recordset1) == 0 ){
 	echo "<script type=\"text/javascript\">
 				alert(\"Não nenhum registro encontrado!\");
 					location.href='default.php';
@@ -72,7 +72,7 @@ if(mysql_num_rows($Recordset1) == 0 ){
 }
 
 $query_password = "SELECT * FROM password where especialista='S'";
-$password = mysql_query($query_password, $conexao) or die(mysql_error());
+$password = mysqli_query($conexao,$query_password) or die(mysqli_error());
 ?>
 <script src="../jscripts/SpryTooltip.js" type="text/javascript"></script>
 <link href="../jscripts/SpryTooltip.css" rel="stylesheet" type="text/css" />
@@ -114,7 +114,7 @@ $password = mysql_query($query_password, $conexao) or die(mysql_error());
                   <td colspan="2" align="center"><select name="resp" id="resp">
         <option value="">Selecione</option>
         <?php
-		while( $row_password  = mysql_fetch_assoc($password)){
+		while( $row_password  = mysqli_fetch_assoc($password)){
 		?>
         <option value="<?php echo $row_password['pass_id']; ?>"><?php echo $row_password['pass_nome']; ?></option>
         <?php
@@ -179,16 +179,16 @@ echo " style=\"background-color:$color;\"";
 			
 			
 			<?php
-			$sql=mysql_query(sprintf("SELECT `titulo_id` FROM `parcela_titulo` WHERE situacao_parcela ='ab' AND titulo_id ='%s'", $row_Recordset1['titulo_id']));
+			$sql=mysqli_query($conexao,sprintf("SELECT `titulo_id` FROM `parcela_titulo` WHERE situacao_parcela ='ab' AND titulo_id ='%s'", $row_Recordset1['titulo_id']));
 			
-			if(mysql_num_rows($sql) > 0){
+			if(mysqli_num_rows($sql) > 0){
 				$totalab = $totalab+$row_Recordset1['titulo_valor'];
 				echo '<span style="color:red; font-size:11px;">Situação: Aberto</span>';
 			} else {	
 				$totalpg = $totalpg+$row_Recordset1['titulo_valor'];
 				echo '<span style="color:#888; font-size:11px;">Situação: Liquidado</span>';
 			}
-			mysql_free_result( $sql );
+			mysqli_free_result( $sql );
 			?>			</td>
             <td align="center" style="border-top: 1px solid #ccc;">
 			<?php
@@ -214,7 +214,7 @@ echo " style=\"background-color:$color;\"";
 		}
 		// technocurve arc 3 php bv block3/3 end
 		?>
-          <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
+          <?php } while ($row_Recordset1 = mysqli_fetch_assoc($Recordset1)); ?>
       </table>
 	  </td>
     </tr>
@@ -232,6 +232,6 @@ echo " style=\"background-color:$color;\"";
   </table>
 </div>
 <?php
-mysql_free_result($Recordset1);
-mysql_free_result($password);
+mysqli_free_result($Recordset1);
+mysqli_free_result($password);
 ?>

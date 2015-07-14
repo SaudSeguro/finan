@@ -17,7 +17,7 @@ If(isset($_GET['DataVencida'])) {
 if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 	$idParcela = isset( $_GET['idParcela'] ) ? intval( $_GET['idParcela'] ) : '-1';
 	
-	@mysql_query(sprintf("DELETE FROM `parcela_titulo` WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
+	mysqli_query($conexao,sprintf("DELETE FROM `parcela_titulo` WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
 	echo "<script type=\"text/javascript\">
 				alert(\"Dados excluídos com sucesso!\");
 			</script>";
@@ -30,7 +30,7 @@ if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 } elseif( isset( $_GET['acao'] ) && $_GET['acao'] == 'baixa' ){
 	
 	$idParcela = isset( $_GET['idParcela'] ) ? intval( $_GET['idParcela'] ) : '-1';
-	@mysql_query(sprintf("UPDATE `parcela_titulo` SET `situacao_parcela`='pg' WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
+	mysqli_query($conexao,sprintf("UPDATE `parcela_titulo` SET `situacao_parcela`='pg' WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
 	
 	echo "<script type=\"text/javascript\">
 				alert(\"Baixa efetuada com sucesso!\");
@@ -58,7 +58,7 @@ if(isset($_GET['b'])){
 	}
 	
 	if(!empty($_GET['b'])) {
-		$sql .= sprintf(" s.sac_nome LIKE '%s' ", "%". $_GET['b'] ."%" );
+		$sql .= sprintf(" s.sac_nome LIKE '%s' ", "%". rawurldecode( $_GET['b'] ) ."%" );
 	}
 	
 	if(!empty($_GET['dataFim']) && !empty($_GET['dataInicio'])){
@@ -102,10 +102,10 @@ if(isset($_GET['b'])){
 
 }
 
-$Recordset1 = mysql_query($query_Recordset1, $conexao) or die(mysql_error());
-$row_Recordset1 = mysql_fetch_assoc($Recordset1);
+$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 
-if(mysql_num_rows($Recordset1) == 0 ){
+if(mysqli_num_rows($Recordset1) == 0 ){
 	echo "<script type=\"text/javascript\">
 				alert(\"Não nenhum registro encontrado!\");
 					location.href='default.php';
@@ -113,7 +113,7 @@ if(mysql_num_rows($Recordset1) == 0 ){
 }
 
 $query_password = "SELECT * FROM password where especialista='S'";
-$password = mysql_query($query_password, $conexao) or die(mysql_error());
+$password = mysqli_query($conexao,$query_password) or die(mysqli_error());
 ?>
 <div id="boxLogin">
   <table width="100%" border="0">
@@ -154,7 +154,7 @@ $password = mysql_query($query_password, $conexao) or die(mysql_error());
                 <td colspan="2" align="center"><select name="resp" id="resp">
         <option value="">Selecione</option>
         <?php
-		while( $row_password  = mysql_fetch_assoc($password)){
+		while( $row_password  = mysqli_fetch_assoc($password)){
 		?>
         <option value="<?php echo $row_password['pass_id']; ?>"><?php echo $row_password['pass_nome']; ?></option>
         <?php
@@ -269,7 +269,7 @@ echo " style=\"background-color:$color;\"";
 		}
 		// technocurve arc 3 php bv block3/3 end
 		?>
-          <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
+          <?php } while ($row_Recordset1 = mysqli_fetch_assoc($Recordset1)); ?>
       </table>
 	  </div>	  </td>
     </tr>
@@ -279,22 +279,22 @@ echo " style=\"background-color:$color;\"";
           <td height="40">Duplicatas vencidas: R$: <strong><?php 
 		  
 		  
-			$sql = @mysql_query(sprintf("SELECT SUM(valor_parcela) AS soma FROM parcela_titulo WHERE `situacao_parcela` = 'ab' AND `venc_parcela` < '%s'",  date('Y-m-d')));
+			$sql = mysqli_query($conexao,sprintf("SELECT SUM(valor_parcela) AS soma FROM parcela_titulo WHERE `situacao_parcela` = 'ab' AND `venc_parcela` < '%s'",  date('Y-m-d')));
 			
-			$valor_total = mysql_fetch_array($sql);
+			$valor_total = mysqli_fetch_array($sql);
 		  
 			echo number_format( $valor_total["soma"], 2,",","." );
-			@mysql_free_result($sql);
+			mysqli_free_result($sql);
 			
 			?></strong></td>
           <td>Duplicatas vincendo em menos de 07 dias: R$: <strong><?php 
 		  
 		  
-			$sql = @mysql_query(sprintf("SELECT SUM(valor_parcela) AS soma FROM parcela_titulo WHERE situacao_parcela = 'ab' AND `venc_parcela` >= '%s' AND `venc_parcela` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
+			$sql = mysqli_query($conexao,sprintf("SELECT SUM(valor_parcela) AS soma FROM parcela_titulo WHERE situacao_parcela = 'ab' AND `venc_parcela` >= '%s' AND `venc_parcela` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
 		  
-			$valor_total = mysql_fetch_array($sql);		  
+			$valor_total = mysqli_fetch_array($sql);		  
 			echo number_format( $valor_total["soma"], 2,",","." );
-			@mysql_free_result($sql);
+			mysqli_free_result($sql);
 			
 			?></strong></td>
           <td>Todas: R$: <strong><?php echo number_format( $total, 2,",","." ); ?></strong></td>
@@ -309,6 +309,6 @@ echo " style=\"background-color:$color;\"";
   </table>
 </div>
 <?php
-mysql_free_result($Recordset1);
-mysql_free_result($password);
+mysqli_free_result($Recordset1);
+mysqli_free_result($password);
 ?>

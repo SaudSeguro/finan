@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 if (basename($_SERVER["PHP_SELF"]) == "init.php") {
 	die("Este arquivo não pode ser acessado diretamente.");
 }	

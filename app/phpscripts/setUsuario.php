@@ -1,5 +1,5 @@
 <?php 
-require_once('Connections/conexao.php');
+require_once('../config.php');
 
 $pass_login = $_POST['pass_login'];
 $pass_senha = $_POST['pass_senha']; 
@@ -41,8 +41,7 @@ if ($erros>0){
 	$insertSQL = sprintf("INSERT INTO `password` (`pass_login` ,`pass_senha` ,`pass_nivel`)
 VALUES ('%s', '%s', '%s')",	$pass_login, $pass_senha, $pass_nivel);
 
-	mysql_select_db($database_conexao, $conexao);
-	$Result1 = mysql_query($insertSQL, $conexao) or die(mysql_error());
+	$Result1 = mysqli_query($conexao,$insertSQL) or die(mysqli_error());
 
 	echo "<script type=\"text/javascript\">
 				alert(\"Cadastro efetuado com sucesso!\");

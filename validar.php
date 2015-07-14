@@ -17,13 +17,11 @@ if(getenv("REQUEST_METHOD") == "POST"){
 	$senha = isset($_POST["senha"]) ? limpa($_POST["senha"]) : "";
 	
 	$sql = sprintf("select count(*) from password where pass_login = '%s' and pass_senha = '%s'", $login, $senha);
-	mysql_connect(SERVIDOR, USUARIO, SENHA) or die(mysql_error());
-	mysql_select_db(BANCO) or die(mysql_error());
 	
-	$re = mysql_query($sql) or die(mysql_error());
-	if(mysql_result($re, 0)){
-		$re = mysql_query(sprintf("select * from password where pass_login = '%s' and pass_senha = '%s'", $login, $senha )) or die(mysql_error());		
-		$resultado = mysql_fetch_array($re);
+	$re = mysqli_query($conexao,$sql) or die(mysqli_error());
+	if(mysqli_num_rows($re)>0){
+		$re = mysqli_query($conexao,sprintf("select * from password where pass_login = '%s' and pass_senha = '%s'", $login, $senha )) or die(mysqli_error());		
+		$resultado = mysqli_fetch_array($re);
 		if($resultado["pass_nivel"] > 0){
 			
 			$dados = array();

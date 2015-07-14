@@ -1,7 +1,7 @@
 ﻿<?php
 if( isset( $_GET['acao'] ) && $_GET['acao'] = 'excluir' ){
 	$idUsu = isset( $_GET['idUsu'] ) ? intval( $_GET['idUsu'] ) : '-1';
-	@mysql_query(sprintf("DELETE FROM `password` WHERE (`pass_id`='%s' AND `pass_nivel` < '3') LIMIT 1", $idUsu));
+	mysqli_query($conexao,sprintf("DELETE FROM `password` WHERE (`pass_id`='%s' AND `pass_nivel` < '3') LIMIT 1", $idUsu));
 	echo "<script type=\"text/javascript\">
 					alert(\"Dados excluídos com sucesso!\");
 					location.href='?pag=consultaUsuario';
@@ -18,8 +18,8 @@ if($dados["pass_nivel"]==3){
 } else {
 	$query_Recordset1 = "SELECT * FROM password WHERE pass_nivel < '3' ORDER BY pass_login ASC";
 }
-$Recordset1 = mysql_query($query_Recordset1, $conexao) or die(mysql_error());
-$row_Recordset1 = mysql_fetch_assoc($Recordset1);
+$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 ?>
 <div id="boxLogin">
   <table width="100%" border="0">
@@ -79,11 +79,11 @@ echo " style=\"background-color:$color\"";
 		}
 		// technocurve arc 3 php bv block3/3 end
 		?>
-          <?php } while ($row_Recordset1 = mysql_fetch_assoc($Recordset1)); ?>
+          <?php } while ($row_Recordset1 = mysqli_fetch_assoc($Recordset1)); ?>
       </table></td>
     </tr>
   </table>
 </div>
 <?php
-mysql_free_result($Recordset1);
+mysqli_free_result($Recordset1);
 ?>

@@ -1,6 +1,6 @@
 ﻿<?php
-$query_Recordset1 = mysql_query( sprintf("SELECT * FROM parcela_titulo WHERE situacao_parcela = 'ab' AND venc_parcela < '%s'", date('Y-m-d') ));
-if(mysql_num_rows($query_Recordset1) !== 0){
+$query_Recordset1 = mysqli_query($conexao, sprintf("SELECT * FROM parcela_titulo WHERE situacao_parcela = 'ab' AND venc_parcela < '%s'", date('Y-m-d') ));
+if(mysqli_num_rows($query_Recordset1) !== 0){
 
 echo '<center>
 	<table width="250" border="0" cellspacing="10">
@@ -14,5 +14,5 @@ echo '<center>
 	</table>
 	</center>';
 }
-mysql_free_result( $query_Recordset1 );
+mysqli_free_result( $query_Recordset1 );
 ?>
