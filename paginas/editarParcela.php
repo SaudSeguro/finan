@@ -138,7 +138,7 @@ $(document).ready( function() {
 		<?php
 		while( $row_sacado  = mysqli_fetch_assoc($sacado)){
 		?>
-        <option value="<?php echo $row_sacado['sac_id']; ?>"><?php echo mb_strtoupper( $row_sacado['sac_nome'] ); ?></option>
+        <option value="<?php echo $row_sacado['sac_id']; ?>"><?php echo strtoupper( $row_sacado['sac_nome'] ); ?></option>
 		<?php
 		}
 		?>

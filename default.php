@@ -81,7 +81,7 @@ $(document).ready( function() {
 		<span onMouseOver="mouseOver(1);" onMouseOut="mouseOut();"><img src="images/kmenuedit.png" title="Cadastros" style="cursor:pointer" /></span>
 		<span onMouseOver="mouseOver(2);" onMouseOut="mouseOut();"><img src="images/search.png" title="Consultas" style="cursor:pointer"  /></span>
 		<span><a class="link" href="default.php?pag=sair" title="Sair do sistema"><img src="images/session_logout.png" /></a> </span>
-		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Olá! <strong><?php echo mb_strtoupper( @$dados["pass_nome"] ); ?></strong> <br />
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Olá! <strong><?php echo strtoupper( @$dados["pass_nome"] ); ?></strong> <br />
 		<br />
 		<div id="texto"></div>
 		<br />

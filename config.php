@@ -2,9 +2,14 @@
 define("SERVIDOR", "localhost");
 define("USUARIO", "root");
 define("SENHA", "123456");
-define("BANCO", "saudfinan");
+define("BANCO", "wsduarte_finan");
 $conexao = mysqli_connect(SERVIDOR, USUARIO, SENHA, BANCO) or die(mysqli_error());
 
+/* check connection */
+if (mysqli_connect_errno()) {
+    printf("Connect failed: %s\n", mysqli_connect_error());
+    exit();
+}
 
 setlocale(LC_ALL, "pt_BR", "pt_BR.iso-8859-1", "pt_BR.utf-8", "portuguese");
 date_default_timezone_set('America/Sao_Paulo');

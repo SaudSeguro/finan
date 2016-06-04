@@ -45,7 +45,13 @@ if(isset($_GET['b'])){
 		
 		$dataInicio = implode('-',array_reverse(explode('/', $_GET['dataInicio'])));
 		$dataFim = implode('-',array_reverse(explode('/', $_GET['dataFim'])));
-		$sql .= sprintf(" t.titulo_data_cadastro BETWEEN '%s' AND '%s' ", $dataInicio, $dataFim );
+		
+		if ( $dataInicio == date('Y-m-d')) {
+			$sql .= " t.titulo_data_cadastro = CURDATE() ";
+		}  else {
+			$sql .= sprintf(" t.titulo_data_cadastro BETWEEN '%s' AND '%s' ", $dataInicio, $dataFim );
+		}
+		
 	}
 	
 	if(!empty( $_GET['resp'] )) {

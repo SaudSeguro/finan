@@ -68,7 +68,14 @@ if(isset($_GET['b'])){
 		
 		$dataInicio = implode('-',array_reverse(explode('/', $_GET['dataInicio'])));
 		$dataFim = implode('-',array_reverse(explode('/', $_GET['dataFim'])));
-		$sql .= sprintf(" p.parcela_vencimento BETWEEN '%s' AND '%s' ", $dataInicio, $dataFim );
+		
+		
+		if ( $dataInicio == date('Y-m-d')) {
+			$sql .= " p.parcela_vencimento CURDATE() ";
+		}  else {
+			$sql .= sprintf(" p.parcela_vencimento BETWEEN '%s' AND '%s' ", $dataInicio, $dataFim );
+		}
+		
 	}
 	
 	if(!empty( $_GET['resp'] )) {

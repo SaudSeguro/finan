@@ -237,7 +237,7 @@ $(document).ready( function() {
 		<?php
 		while( $row_sacado  = mysqli_fetch_assoc($sacado)){
 		?>
-        <option value="<?php echo $row_sacado['sac_id']; ?>"><?php echo mb_strtoupper( $row_sacado['sac_nome'] ); ?></option>
+        <option value="<?php echo $row_sacado['sac_id']; ?>"><?php echo strtoupper( $row_sacado['sac_nome'] ); ?></option>
 		<?php
 		}
 		?>
@@ -251,7 +251,7 @@ $(document).ready( function() {
         <?php
 		while( $row_password  = mysqli_fetch_assoc($password)){
 		?>
-        <option value="<?php echo $row_password['pass_id']; ?>"><?php echo mb_strtoupper( $row_password['pass_nome'] ); ?></option>
+        <option value="<?php echo $row_password['pass_id']; ?>"><?php echo strtoupper( $row_password['pass_nome'] ); ?></option>
         <?php
 		}
 		?>
