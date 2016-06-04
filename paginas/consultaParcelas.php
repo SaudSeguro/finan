@@ -72,6 +72,9 @@ if(isset($_GET['b'])){
 		
 		
 		if ( $dataInicio == date('Y-m-d')) {
+			
+			$sql .= sprintf( " p.parcela_vencimento = CURDATE() AND p.parcela_vencimento <= '%s' ", $dataFim );
+			
 			$sql .= " p.venc_parcela = CURDATE() ";
 		}  else {
 			$sql .= sprintf(" p.venc_parcela BETWEEN '%s' AND '%s' ", $dataInicio, $dataFim );

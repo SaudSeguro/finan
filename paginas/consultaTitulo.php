@@ -47,7 +47,9 @@ if(isset($_GET['b'])){
 		$dataFim = implode('-',array_reverse(explode('/', $_GET['dataFim'])));
 		
 		if ( $dataInicio == date('Y-m-d')) {
-			$sql .= " t.titulo_data_cadastro = CURDATE() ";
+			
+			$sql .= sprintf( " t.titulo_data_cadastro = CURDATE() AND t.titulo_data_cadastro <= '%s' ", $dataFim );
+			
 		}  else {
 			$sql .= sprintf(" t.titulo_data_cadastro BETWEEN '%s' AND '%s' ", $dataInicio, $dataFim );
 		}
