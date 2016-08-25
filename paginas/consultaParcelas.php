@@ -70,16 +70,11 @@ if(isset($_GET['b'])){
 		$dataInicio = implode('-',array_reverse(explode('/', $_GET['dataInicio'])));
 		$dataFim = implode('-',array_reverse(explode('/', $_GET['dataFim'])));
 		
-		
-		if ( $dataInicio == date('Y-m-d')) {
-			
-			$sql .= sprintf( " p.parcela_vencimento = CURDATE() AND p.parcela_vencimento <= '%s' ", $dataFim );
-			
-			$sql .= " p.venc_parcela = CURDATE() ";
+		if ( $dataInicio == date('Y-m-d')) {		
+			$sql .= sprintf( " p.venc_parcela = CURDATE() AND p.venc_parcela <= '%s' ", $dataFim);
 		}  else {
 			$sql .= sprintf(" p.venc_parcela BETWEEN '%s' AND '%s' ", $dataInicio, $dataFim );
 		}
-		
 		
 	}
 	
@@ -112,7 +107,6 @@ if(isset($_GET['b'])){
 	$query_Recordset1 = $sql .=" ORDER BY s.sac_nome ASC, p.venc_parcela ASC";
 
 }
-
 
 $Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
 $row_Recordset1 = mysqli_fetch_assoc($Recordset1);

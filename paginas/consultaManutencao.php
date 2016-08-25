@@ -69,7 +69,6 @@ if(isset($_GET['b'])){
 		$dataInicio = implode('-',array_reverse(explode('/', $_GET['dataInicio'])));
 		$dataFim = implode('-',array_reverse(explode('/', $_GET['dataFim'])));
 		
-		
 		if ( $dataInicio == date('Y-m-d')) {
 			
 			$sql .= sprintf( " p.parcela_vencimento = CURDATE() AND p.parcela_vencimento <= '%s' ", $dataFim );
