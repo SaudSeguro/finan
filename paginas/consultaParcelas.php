@@ -17,7 +17,7 @@ If(isset($_GET['DataVencida'])) {
 if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 	$idParcela = isset( $_GET['idParcela'] ) ? intval( $_GET['idParcela'] ) : '-1';
 	
-	mysqli_query($conexao,sprintf("DELETE FROM `parcela_titulo` WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
+	mysqli_query(db_connect(),sprintf("DELETE FROM `parcela_titulo` WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
 	echo "<script type=\"text/javascript\">
 				alert(\"Dados excluídos com sucesso!\");
 			</script>";
@@ -30,7 +30,7 @@ if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 } elseif( isset( $_GET['acao'] ) && $_GET['acao'] == 'baixa' ){
 	
 	$idParcela = isset( $_GET['idParcela'] ) ? intval( $_GET['idParcela'] ) : '-1';
-	mysqli_query($conexao,sprintf("UPDATE `parcela_titulo` SET `situacao_parcela`='pg' WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
+	mysqli_query(db_connect(),sprintf("UPDATE `parcela_titulo` SET `situacao_parcela`='pg' WHERE (`id_parcela`='%s') LIMIT 1", $idParcela));
 	
 	echo "<script type=\"text/javascript\">
 				alert(\"Baixa efetuada com sucesso!\");
@@ -108,7 +108,7 @@ if(isset($_GET['b'])){
 
 }
 
-$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$Recordset1 = mysqli_query(db_connect(),$query_Recordset1) or die(mysqli_error());
 $row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 
 if(mysqli_num_rows($Recordset1) == 0 ){
@@ -119,7 +119,7 @@ if(mysqli_num_rows($Recordset1) == 0 ){
 }
 
 $query_password = "SELECT SQL_NO_CACHE * FROM password where especialista='S'";
-$password = mysqli_query($conexao,$query_password) or die(mysqli_error());
+$password = mysqli_query(db_connect(),$query_password) or die(mysqli_error());
 ?>
 <div id="boxLogin">
   <table width="100%" border="0">
@@ -285,7 +285,7 @@ echo " style=\"background-color:$color;\"";
           <td height="40">Duplicatas vencidas: R$: <strong><?php 
 		  
 		  
-			$sql = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE SUM(valor_parcela) AS soma FROM parcela_titulo WHERE `situacao_parcela` = 'ab' AND `venc_parcela` < '%s'",  date('Y-m-d')));
+			$sql = mysqli_query(db_connect(),sprintf("SELECT SQL_NO_CACHE SUM(valor_parcela) AS soma FROM parcela_titulo WHERE `situacao_parcela` = 'ab' AND `venc_parcela` < '%s'",  date('Y-m-d')));
 			
 			$valor_total = mysqli_fetch_array($sql);
 		  
@@ -296,7 +296,7 @@ echo " style=\"background-color:$color;\"";
           <td>Duplicatas vincendo em menos de 07 dias: R$: <strong><?php 
 		  
 		  
-			$sql = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE SUM(valor_parcela) AS soma FROM parcela_titulo WHERE situacao_parcela = 'ab' AND `venc_parcela` >= '%s' AND `venc_parcela` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
+			$sql = mysqli_query(db_connect(),sprintf("SELECT SQL_NO_CACHE SUM(valor_parcela) AS soma FROM parcela_titulo WHERE situacao_parcela = 'ab' AND `venc_parcela` >= '%s' AND `venc_parcela` <= '%s' ",  date('Y-m-d'), date('Y-m-d', strtotime("+7 day"))));
 		  
 			$valor_total = mysqli_fetch_array($sql);		  
 			echo number_format( $valor_total["soma"], 2,",","." );

@@ -22,7 +22,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 	$valorParcela = trata( $_POST['titulo_valor'] );
 	$dataVencimento = $_POST['venc_parcela'];
 	
-	$Result1 = mysqli_query($conexao,sprintf("UPDATE `parcela_titulo` SET `numero_documento` = '%s', `valor_parcela`='%s', `venc_parcela` = '%s' WHERE (`id_parcela`='%s') LIMIT 1",
+	$Result1 = mysqli_query(db_connect(),sprintf("UPDATE `parcela_titulo` SET `numero_documento` = '%s', `valor_parcela`='%s', `venc_parcela` = '%s' WHERE (`id_parcela`='%s') LIMIT 1",
 				$_POST['numero_documento'],
 				str_replace(",",".", $valorParcela ),
 				implode('-',array_reverse(explode('/', $dataVencimento))),
@@ -38,11 +38,11 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
  
 $query_par = sprintf("SELECT * FROM parcela_titulo WHERE id_parcela = '%s'", $colname_par);
 
-$par = mysqli_query($conexao,$query_par) or die(mysqli_error());
+$par = mysqli_query(db_connect(),$query_par) or die(mysqli_error());
 $row_par = mysqli_fetch_assoc($par);  
  
 $query_sacado = "SELECT * FROM sacado where `sac_id` = '". $row_par['sac_id']."'";
-$sacado = mysqli_query($conexao,$query_sacado) or die(mysqli_error());
+$sacado = mysqli_query(db_connect(),$query_sacado) or die(mysqli_error());
 ?>
 <script language="javascript">
 function enviardados(){

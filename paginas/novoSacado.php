@@ -32,7 +32,7 @@ if (isset($_SERVER['QUERY_STRING'])) {
 if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 	
 	
-	$rs = mysqli_query($conexao,sprintf("SELECT * FROM `sacado` WHERE `sac_cpf` = '%s'", $_POST['sac_cpf']));
+	$rs = mysqli_query(db_connect(),sprintf("SELECT * FROM `sacado` WHERE `sac_cpf` = '%s'", $_POST['sac_cpf']));
 	if(mysqli_num_rows($rs) > 0 ){
 		
 		echo "<script type=\"text/javascript\">
@@ -55,7 +55,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 						   GetSQLValueString($_POST['sac_email'], "text"),
 						   GetSQLValueString($_POST['sac_observacao'], "text"));
 
-		$Result1 = mysqli_query($conexao,$insertSQL) or die(mysqli_error());
+		$Result1 = mysqli_query(db_connect(),$insertSQL) or die(mysqli_error());
 
 		echo "<script type=\"text/javascript\">
 					alert(\"Cadastro efetuado com sucesso!\");

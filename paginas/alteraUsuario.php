@@ -14,7 +14,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 							$_POST['pass_nivel'],
 							$_GET['idUsu']);
 
-	$Result1 = mysqli_query($conexao,$altSQL) or die(mysqli_error());
+	$Result1 = mysqli_query(db_connect(),$altSQL) or die(mysqli_error());
 
 	echo "<script type=\"text/javascript\">
 					alert(\"Cadastro alterado com sucesso!\");
@@ -23,7 +23,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 		
 }
 $query_cadastro = sprintf("SELECT * FROM password WHERE ( `pass_id`='%s' ) LIMIT 1", $_GET['idUsu']);
-$cadastro = mysqli_query($conexao,$query_cadastro) or die(mysqli_error());
+$cadastro = mysqli_query(db_connect(),$query_cadastro) or die(mysqli_error());
 $row_cadastro = mysqli_fetch_assoc($cadastro);
 $totalRows_cadastro = mysqli_num_rows($cadastro);
 ?>

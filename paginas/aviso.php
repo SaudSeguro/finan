@@ -1,5 +1,5 @@
 ﻿<?php
-$query_Recordset1 = mysqli_query($conexao, sprintf("SELECT * FROM parcela_titulo WHERE situacao_parcela = 'ab' AND venc_parcela < '%s'", date('Y-m-d') ));
+$query_Recordset1 = mysqli_query(db_connect(), sprintf("SELECT * FROM parcela_titulo WHERE situacao_parcela = 'ab' AND venc_parcela < '%s'", date('Y-m-d') ));
 if(mysqli_num_rows($query_Recordset1) !== 0){
 
 echo '<center>

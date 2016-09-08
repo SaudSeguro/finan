@@ -1,7 +1,7 @@
 ﻿<?php
 if( isset( $_GET['acao'] ) && $_GET['acao'] = 'excluir' ){
 	$idUsu = isset( $_GET['idUsu'] ) ? intval( $_GET['idUsu'] ) : '-1';
-	mysqli_query($conexao,sprintf("DELETE FROM `password` WHERE (`pass_id`='%s' AND `pass_nivel` < '3') LIMIT 1", $idUsu));
+	mysqli_query(db_connect(),sprintf("DELETE FROM `password` WHERE (`pass_id`='%s' AND `pass_nivel` < '3') LIMIT 1", $idUsu));
 	echo "<script type=\"text/javascript\">
 					alert(\"Dados excluídos com sucesso!\");
 					location.href='?pag=consultaUsuario';
@@ -18,7 +18,7 @@ if($dados["pass_nivel"]==3){
 } else {
 	$query_Recordset1 = "SELECT SQL_NO_CACHE * FROM password WHERE pass_nivel < '3' ORDER BY pass_login ASC";
 }
-$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$Recordset1 = mysqli_query(db_connect(),$query_Recordset1) or die(mysqli_error());
 $row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 ?>
 <div id="boxLogin">

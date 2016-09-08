@@ -1,12 +1,12 @@
 ﻿<?php
 require_once('config.php'); 
-$rsAdmin = mysqli_query($conexao,"SELECT * FROM `password` WHERE `pass_id` = '1'");
+$rsAdmin = mysqli_query(db_connect(),"SELECT * FROM `password` WHERE `pass_id` = '1'");
 if(mysqli_num_rows($rsAdmin) == 0 ){
-	mysqli_query($conexao,"INSERT INTO `password` (`pass_login` ,`pass_senha` ,`pass_nivel`)
+	mysqli_query(db_connect(),"INSERT INTO `password` (`pass_login` ,`pass_senha` ,`pass_nivel`)
 	VALUES ('admin', 'admin', '3')");
 }
 mysqli_free_result($rsAdmin);
-mysqli_close($conexao);
+mysqli_close(db_connect());
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

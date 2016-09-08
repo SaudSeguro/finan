@@ -2,7 +2,7 @@
 if( isset( $_GET['acao'] ) && $_GET['acao'] = 'excluir' ){
 	$idSac = isset( $_GET['idSac'] ) ? intval( $_GET['idSac'] ) : '-1';
 	
-	$rsConsulta = mysqli_query($conexao,sprintf("SELECT SQL_NO_CACHE * FROM `titulos` WHERE `sac_id` = '%s'", $idSac));
+	$rsConsulta = mysqli_query(db_connect(),sprintf("SELECT SQL_NO_CACHE * FROM `titulos` WHERE `sac_id` = '%s'", $idSac));
 
 	if(mysqli_num_rows($rsConsulta) > 0 ){
 		
@@ -13,11 +13,11 @@ if( isset( $_GET['acao'] ) && $_GET['acao'] = 'excluir' ){
 	
 	} else {
 	
-		mysqli_query($conexao,sprintf("DELETE FROM `sacado` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		mysqli_query($conexao,sprintf("DELETE FROM `manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		mysqli_query($conexao,sprintf("DELETE FROM `parcela_aparelho` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		mysqli_query($conexao,sprintf("DELETE FROM `parcela_manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
-		mysqli_query($conexao,sprintf("DELETE FROM `titulos` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query(db_connect(),sprintf("DELETE FROM `sacado` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query(db_connect(),sprintf("DELETE FROM `manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query(db_connect(),sprintf("DELETE FROM `parcela_aparelho` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query(db_connect(),sprintf("DELETE FROM `parcela_manutencao` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
+		mysqli_query(db_connect(),sprintf("DELETE FROM `titulos` WHERE (`sac_id`='%s') LIMIT 1", $idSac));
 		echo "<script type=\"text/javascript\">
 						alert(\"Dados excluídos com sucesso!\");
 						location.href='?pag=consultaSacado';
@@ -38,7 +38,7 @@ if(isset($_GET['b'])){
 }
 
 
-$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$Recordset1 = mysqli_query(db_connect(),$query_Recordset1) or die(mysqli_error());
 $row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 
 if(mysqli_num_rows($Recordset1) == 0 ){

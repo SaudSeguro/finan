@@ -46,7 +46,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 					   GetSQLValueString($_POST['sac_email'], "text"),
 					   GetSQLValueString($_POST['sac_observacao'], "text"),
 					   $idSac);
-		$Result1 = mysqli_query($conexao,$altSQL) or die(mysqli_error());
+		$Result1 = mysqli_query(db_connect(),$altSQL) or die(mysqli_error());
 
 		echo "<script type=\"text/javascript\">
 					alert(\"Cadastro alterado com sucesso!\");
@@ -56,7 +56,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 }
 
 $query_cadastro = sprintf("SELECT * FROM sacado WHERE `sac_id` = %s", $idSac);
-$cadastro = mysqli_query($conexao,$query_cadastro) or die(mysqli_error());
+$cadastro = mysqli_query(db_connect(),$query_cadastro) or die(mysqli_error());
 $row_cadastro = mysqli_fetch_assoc($cadastro);
 ?>
 <script language="javascript">

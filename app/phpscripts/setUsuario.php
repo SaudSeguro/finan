@@ -41,7 +41,7 @@ if ($erros>0){
 	$insertSQL = sprintf("INSERT INTO `password` (`pass_login` ,`pass_senha` ,`pass_nivel`)
 VALUES ('%s', '%s', '%s')",	$pass_login, $pass_senha, $pass_nivel);
 
-	$Result1 = mysqli_query($conexao,$insertSQL) or die(mysqli_error());
+	$Result1 = mysqli_query(db_connect(),$insertSQL) or die(mysqli_error());
 
 	echo "<script type=\"text/javascript\">
 				alert(\"Cadastro efetuado com sucesso!\");

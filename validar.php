@@ -18,9 +18,9 @@ if(getenv("REQUEST_METHOD") == "POST"){
 	
 	$sql = sprintf("select count(*) from password where pass_login = '%s' and pass_senha = '%s'", $login, $senha);
 	
-	$re = mysqli_query($conexao,$sql) or die(mysqli_error());
+	$re = mysqli_query(db_connect(),$sql) or die(mysqli_error());
 	if(mysqli_num_rows($re)>0){
-		$re = mysqli_query($conexao,sprintf("select * from password where pass_login = '%s' and pass_senha = '%s'", $login, $senha )) or die(mysqli_error());		
+		$re = mysqli_query(db_connect(),sprintf("select * from password where pass_login = '%s' and pass_senha = '%s'", $login, $senha )) or die(mysqli_error());		
 		$resultado = mysqli_fetch_array($re);
 		if($resultado["pass_nivel"] > 0){
 			

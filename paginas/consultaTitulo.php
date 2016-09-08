@@ -2,9 +2,9 @@
 if( isset( $_GET['acao'] ) && $_GET['acao'] == 'excluir' ){
 	$idTitulo = isset( $_GET['idTitulo'] ) ? intval( $_GET['idTitulo'] ) : '-1';
 	
-	mysqli_query($conexao,sprintf("DELETE FROM `titulos` WHERE (`titulo_id`='%s') LIMIT 1", $idTitulo));
+	mysqli_query(db_connect(),sprintf("DELETE FROM `titulos` WHERE (`titulo_id`='%s') LIMIT 1", $idTitulo));
 		
-	mysqli_query($conexao,sprintf("DELETE FROM `parcela_titulo` WHERE (`titulo_id`='%s')", $idTitulo));
+	mysqli_query(db_connect(),sprintf("DELETE FROM `parcela_titulo` WHERE (`titulo_id`='%s')", $idTitulo));
 		
 	echo "<script type=\"text/javascript\">
 			alert(\"Dados excluídos com sucesso!\");
@@ -69,7 +69,7 @@ if(isset($_GET['b'])){
 
 }
 
-$Recordset1 = mysqli_query($conexao,$query_Recordset1) or die(mysqli_error());
+$Recordset1 = mysqli_query(db_connect(),$query_Recordset1) or die(mysqli_error());
 $row_Recordset1 = mysqli_fetch_assoc($Recordset1);
 
 if(mysqli_num_rows($Recordset1) == 0 ){
@@ -80,7 +80,7 @@ if(mysqli_num_rows($Recordset1) == 0 ){
 }
 
 $query_password = "SELECT * FROM password where especialista='S'";
-$password = mysqli_query($conexao,$query_password) or die(mysqli_error());
+$password = mysqli_query(db_connect(),$query_password) or die(mysqli_error());
 ?>
 <script src="../jscripts/SpryTooltip.js" type="text/javascript"></script>
 <link href="../jscripts/SpryTooltip.css" rel="stylesheet" type="text/css" />
@@ -187,7 +187,7 @@ echo " style=\"background-color:$color;\"";
 			
 			
 			<?php
-			$sql=mysqli_query($conexao,sprintf("SELECT `titulo_id` FROM `parcela_titulo` WHERE situacao_parcela ='ab' AND titulo_id ='%s'", $row_Recordset1['titulo_id']));
+			$sql=mysqli_query(db_connect(),sprintf("SELECT `titulo_id` FROM `parcela_titulo` WHERE situacao_parcela ='ab' AND titulo_id ='%s'", $row_Recordset1['titulo_id']));
 			
 			if(mysqli_num_rows($sql) > 0){
 				$totalab = $totalab+$row_Recordset1['titulo_valor'];

@@ -20,7 +20,7 @@ while ($row = mysqli_fetch_row($res)) {
 $table = $row[0]; 
 // usando a função SHOW CREATE TABLE do mysql, exibo as funções de criação da tabela, 
 // exportando também isso, para nosso arquivo de backup
-$res2 = mysqli_query($conexao,"SHOW CREATE TABLE $table");
+$res2 = mysqli_query(db_connect(),"SHOW CREATE TABLE $table");
 // digo que o comando acima deve ser feito em cada uma das tabelas
 
 	while ( $lin = mysqli_fetch_row($res2)){ 
@@ -31,7 +31,7 @@ $res2 = mysqli_query($conexao,"SHOW CREATE TABLE $table");
 
 // seleciono todos os dados de cada tabela pega no while acima
 // e depois gravo no arquivo .sql, usando comandos de insert
-		$res3 = mysqli_query($conexao,"SELECT * FROM $table");
+		$res3 = mysqli_query(db_connect(),"SELECT * FROM $table");
 		while($r=mysqli_fetch_row($res3)){ 
 			$sql="INSERT INTO $table VALUES (";
 
@@ -141,5 +141,5 @@ if(file_exists($file_del)){
 	removeTreeRec($file_del);
 }
 mysqli_free_result($res);
-mysqli_close($conexao);
+mysqli_close(db_connect());
 ?>

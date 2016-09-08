@@ -1,1 +1,543 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"v",
+				"validate"
+			],
+			[
+				"no",
+				"notEmpty"
+			],
+			[
+				"fu",
+				"fun	function …"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"f",
+				"false"
+			],
+			[
+				"a",
+				"a;a	(jquery.min.js)"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"cl",
+				"click	(jquery.min.js)"
+			],
+			[
+				"VIA",
+				"VIALOJA_APP	(EnviaEmailConvite.php)"
+			],
+			[
+				"sp",
+				"sprintf	(TicketController.php)"
+			],
+			[
+				"E",
+				"Exception"
+			],
+			[
+				"ca",
+				"catch"
+			],
+			[
+				"tr",
+				"try	Wrap in try { … } catch (…) { … }"
+			],
+			[
+				"tri",
+				"trigger_error"
+			],
+			[
+				"com",
+				"compact"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "de",
+		"selected_items":
+		[
+			[
+				"de",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"Package Control: gi",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"tra",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"re",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"if",
+				"Snippet: <?php if (…) ?> … <?php endif ?>"
+			],
+			[
+				"ins",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"dele",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"in",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"min",
+				"Minify Javascript to file"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Config/routes.php",
+		"/var/www/vialoja/application/src/Lib/Cookie.php",
+		"/var/www/vialoja/application/src/Lib/RouterUri.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/View/Arquivo/produto_importar.ctp",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/View/Catalogo/categoria_remover.ctp",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/View/Arquivo/produto_atualizar.ctp",
+		"/var/www/vialoja/public_html/subdomain/loja_shopping/themes/default-store/46cfc/euphoria-calvin-klein.html",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/View/Arquivo/transportadora_exportar.ctp",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/View/Arquivo/transportadora_importar.ctp",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller/ImportacaoProdutoController.php",
+		"/var/www/vialoja/application/src/Lib/Validate.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller/ShopTransportadoraController.php",
+		"/var/www/vialoja/application/Models/template_isPost.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller/TicketController.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Config/database.php",
+		"/home/william/.config/sublime-text-3/Packages/User/Git.sublime-settings",
+		"/home/william/.config/sublime-text-3/Packages/Git/Git.sublime-settings",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Model/TicketAnexo.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller/RecursoController.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller/LojaController.php",
+		"/var/www/vialoja/application/src/Email/Template/AbstractDadosEmail.php",
+		"/var/www/vialoja/application/src/Email/Template/DadosEmail.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Access/EnviaEmailResposta.php",
+		"/var/www/vialoja/application/src/Email/Shopping/ControleAcesso.php",
+		"/var/www/vialoja/application/src/Email/Shopping/Template.php",
+		"/var/www/vialoja/application/src/Email/Template/ThemeDefault.php",
+		"/var/www/vialoja/application/src/Email/Shopping/NotificacaoTicket.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Access/EnviaEmailConvite.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Access/EmailEsqueceuSenha.php",
+		"/var/www/vialoja/application/src/Email/Template/TicketDadosEmail.php",
+		"/var/www/vialoja/application/src/Email/Template/AdapterTheme.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Verification/VerificarEnderecoEmailAutoLogin.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Contact/ContatoLoja.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Support/ConfirmeEnvioCliente.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Support/ConteudoEmail.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Support/ConfirmeEnvioSuporte.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Support/RespostaAdmin.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Support/RespostaCliente.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Verification/EmailBemVindoShopping.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Verification/VerificarEnderecoEmail.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Verification/VerificarEnderecoEmailCadastrado.php",
+		"/var/www/vialoja/application/config/defines.vialoja.php",
+		"/var/www/vialoja/application/src/Email/Notification/Controller/Access/EnviaEmailReativarContaLoja.php",
+		"/var/www/vialoja/application/src/Email/Config/ConfigPHPMailer.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller/WizardController.php",
+		"/var/www/lojamodelo.vialoja.com.br/vialoja/config/app.php",
+		"/var/www/vialoja/application/Exception/ViaLojaDatabaseException.php",
+		"/var/www/vialoja/application/Config/init.vialoja.php",
+		"/var/www/vialoja/application/Bootstrap.php",
+		"/var/www/vialoja/application/Vendor/Lib/Validate.php",
+		"/var/www/vialoja/application/Lib/Validate.php",
+		"/var/www/vialoja/application/Commons/FormaPagamentoLoja.php",
+		"/var/www/vialoja/application/Commons/RegiaoBrasilFreteGratis.php",
+		"/var/www/vialoja/application/Commons/SituacaoProdutoEstoque.php",
+		"/var/www/vialoja/application/Vendor/Lib/Tools.php",
+		"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller/AppController.php",
+		"/var/www/vialoja/application/Config/config.vialoja.php",
+		"/var/www/vialoja/application/Vendor/Commons/FormaPagamentoLoja.php",
+		"/var/www/vialoja/application/Vendor/Lib/Entity.php",
+		"/var/www/vialoja/application/Vendor/Lib/AutoLoginVialoja.php",
+		"/var/www/vialoja/application/Vendor/Lib/Blowfish.php",
+		"/var/www/vialoja/application/Vendor/Lib/ConfigEmail.php",
+		"/var/www/vialoja/application/Vendor/Lib/ConfigPHPMailer.php",
+		"/var/www/vialoja/application/Vendor/Commons/RegiaoBrasilFreteGratis.php",
+		"/var/www/vialoja/application/Vendor/Commons/SituacaoProdutoEstoque.php",
+		"/var/www/vialoja/application/Config/defines.inc.php",
+		"/var/www/vialoja/application/Vendor/Lib/Cookie.php",
+		"/var/www/vialoja/application/Vendor/Lib/ConfigPHPMailerInterface.php",
+		"/var/www/vialoja/application/Lib/Tools.php",
+		"/var/www/vialoja/application/Vendor/Lib/DomainCheck.php",
+		"/var/www/vialoja/application/Vendor/Lib/Simple/FormaPagamentoLoja.php",
+		"/var/www/vialoja/README.md",
+		"/var/www/app_vialoja/comporser.jsons",
+		"/var/www/app_vialoja/index.php",
+		"/var/www/app_vialoja/composer.lock",
+		"/var/www/app_vialoja/composer.json",
+		"/var/www/app_shopping/Vendor/composer.json",
+		"/var/www/app_vialoja/vendor/composer/autoload_static.php",
+		"/var/www/app_shopping/application_vialoja/Config/defines.config.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ConfiguracaoEnvio.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/Sexo.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/RecursoFreteGratis.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/NotificacaoForumUserChange.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/NotificacaoForumUser.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/NotificacaoForumAdmin.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopEndereco.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopCupomDesconto.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopConta.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopConfiguracoesGoogle.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopCode.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopCategoria.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopArquivo.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopGrupo.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopFreteGratis.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopFaturaReferencia.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopFaturaCredito.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopEnvioMotoboy.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopEnvio.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/Bancos.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/AppModel.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/BancosConfiguracao.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/BannerPosicao.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/Cliente.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ClienteConvite.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopUrlUso.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopTemaCustomizacao.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/Ticket.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/Theme.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/SituacaoFatura.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopSelos.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopProdutoVariacao.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopProdutoImagemAssociada.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopProdutoImagem.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopProdutoGrade.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopProduto.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopPagina.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopPagamento.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ShopProdutoCategoria.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ClienteEndereco.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ClienteGrupoShop.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ClienteGrupoAdmin.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ClienteShopGrupo.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ConfiguracaoAtividade.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/Configuracao.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ClienteShop.php",
+		"/var/www/app_shopping/frameworks/cakephp/app_painel/app/Model/ClienteNewsletterShop.php",
+		"/home/william/.config/sublime-text-3/Packages/TrailingSpaces/trailing_spaces.sublime-settings",
+		"/media/william/SAMSUNG/Curso Williams/Cursos Tecnologia/Curso Linguagem C Completo/sources code/5 - VETORES/vetor/main.c"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/var/www/vialoja",
+			"/var/www/vialoja/frameworks/cakephp/app_painel/app/Controller"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"v::notEmpty()->identical(",
+			"v::notEmpty()->validate(",
+			"container",
+			"v::notEmpty()->identical($",
+			"v::notEmpty()->identical(",
+			"'action' => $container['params'][3] . ucwords($container['params'][4])",
+			"container",
+			"elseif ( v::identical($",
+			"if ( v::identical(",
+			"container",
+			"if ( v::identical($",
+			"if ( v::identical(",
+			"identical(",
+			"{\n",
+			"login",
+			"assinar",
+			"esqueceu-a-senha",
+			"criar-conta-loja-virtual",
+			"reenviar-email-confirmacao",
+			"senha-redefinir",
+			"reativar-conta-loja",
+			"conta-loja-reativar",
+			"reativar-conta-finalizada",
+			"email-confirmar",
+			"convite-aceitar",
+			"convite-recusar",
+			"if (condition) {",
+			"convite-aceitar",
+			"email-confirmar",
+			"convite-aceitar",
+			"email-confirmar",
+			"reativar-conta-finalizada",
+			"email-confirmar",
+			"reativar-conta-finalizada",
+			"conta-loja-reativar",
+			"email-confirmar",
+			"reativar-conta-finalizada",
+			"email-confirmar",
+			"reativar-conta-finalizada",
+			"conta-loja-reativar",
+			"reativar-conta-loja",
+			"senha-redefinir",
+			"reativar-conta-loja",
+			"senha-redefinir",
+			"reenviar-email-confirmacao",
+			"criar-conta-loja-virtual",
+			"if (condition) {",
+			"\n				",
+			"if (condition) {\n",
+			"if (condition) {",
+			";\n",
+			"&",
+			"session.cookie_domain",
+			"# None #",
+			"#',\n",
+			"'# None #',",
+			"# None #",
+			"#',\n",
+			"'# None #',",
+			"# None #",
+			"None",
+			"null",
+			"setCorLinha",
+			"Peso Final",
+			"$produto['ShopProduto']",
+			"preco_promocional",
+			"dados['ModeloProdutoImportar']['",
+			"preco_promocional",
+			"preco_cheio",
+			"null",
+			"HORIZONTAL_RIGHT);",
+			"Produtos",
+			"foreach",
+			"$this->array as",
+			"validaPreco",
+			"salvaDadosExcelXLSXAtualizar()",
+			"transactionProdutoAtualizacao",
+			"validaPreco()",
+			"validaPreco",
+			"isPrice",
+			"isPricePositive",
+			";\n",
+			"(float)",
+			";\n",
+			");\n",
+			"'];\n",
+			"isOferta",
+			");\n",
+			";\n",
+			". EOL",
+			"  . EOL",
+			". EOL",
+			"uploadAnexo",
+			"TicketAnexo",
+			"TicketAnegitxo",
+			"Mailer",
+			"'login' => 'root'",
+			"isFileAuthorized",
+			"NotFoundException",
+			"'Ticket.id',\n                    'Ticket.departamento_id',\n                    'Ticket.id_shop_default',\n                    'Ticket.id_cliente',\n                    'Ticket.parente_id',\n                    'Ticket.assunto',\n                    'Ticket.status',\n                    'Ticket.prioridade',\n                    'Ticket.ler',\n                    'Ticket.remetente',\n                    'Ticket.mensagem',\n                    'Ticket.ip',\n                    'Ticket.hash',\n                    'Ticket.created',\n                    'Ticket.modified',\n                    'TicketAnexo.id_ticket_default',\n                    'TicketAnexo.anexo",
+			"'Ticket.id',\n                    'Ticket.departamento_id',\n                    'Ticket.id_shop_default',\n                    'Ticket.id_cliente',\n                    'Ticket.parente_id',\n                    'Ticket.assunto',\n                    'Ticket.status',\n                    'Ticket.prioridade',\n                    'Ticket.ler',\n                    'Ticket.remetente',\n                    'Ticket.mensagem',\n                    'Ticket.ip',\n                    'Ticket.hash',\n                    'Ticket.created',\n                    'Ticket.modified',\n                    'TicketAnexo.id_ticket_default',\n                    'TicketAnexo.anexo'",
+			"$this->result",
+			"ticket_email_remetente",
+			"$this->Session->read('cliente_nivel') <= 5)",
+			"cEnvioCliente",
+			"$resp",
+			"self::slegetSettersResp",
+			"$cEnvioCliente->",
+			"cEnvioCliente",
+			"                $cEnvioCliente",
+			"$cEnvioCliente",
+			"avisoEmail()",
+			"ticketid",
+			"tickeid",
+			";\n",
+			"();\n",
+			"str_class",
+			"TicketDadosEmail",
+			"Seguem",
+			"$this->url_link",
+			"$this->msDetalhe",
+			"$this->resposta",
+			"$this->assunto",
+			"$this->saudacaoAdmin",
+			"$this->url",
+			"url",
+			"=\\\"{$this->url",
+			"$this->url"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\\\"",
+			"$link",
+			"\\\"",
+			"VialojaEmailException",
+			"self::CookieViaLoja()",
+			"self::CookieViaLoja",
+			"$auto_login",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "config.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ticke",
+				"frameworks/cakephp/app_painel/app/Controller/TicketController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 872.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 227.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

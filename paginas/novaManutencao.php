@@ -50,8 +50,8 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 	@$qtdeParcelasManutencao,
 	@$_POST['titulo_observacao']);
 
-	$Result1 = mysqli_query($conexao,$insertSQL) or die(mysqli_error());
-	$manutecao_id = mysqli_insert_id($conexao);
+	$Result1 = mysqli_query(db_connect(),$insertSQL) or die(mysqli_error());
+	$manutecao_id = mysqli_insert_id(db_connect());
 	
 	//cadastra parcela aparelho	
 	
@@ -59,7 +59,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 		
 		if(!empty($data)) {
 
-			$sql = mysqli_query($conexao,sprintf("INSERT INTO `parcela_aparelho` (`manutencao_id`, `sac_id`, `parcela_vencimento`, `parcela_valor`) VALUES ('%s', '%s', '%s', '%s')",
+			$sql = mysqli_query(db_connect(),sprintf("INSERT INTO `parcela_aparelho` (`manutencao_id`, `sac_id`, `parcela_vencimento`, `parcela_valor`) VALUES ('%s', '%s', '%s', '%s')",
 			$manutecao_id,
 			$_POST['sac_id'],
 			implode('-',array_reverse(explode('/', $data))),
@@ -85,7 +85,7 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
 					$valor_manutencao,
 					$meses[$i]);
 		
-		mysqli_query($conexao,$sql) or die(mysqli_error());			
+		mysqli_query(db_connect(),$sql) or die(mysqli_error());			
 	}
 	
 	echo "<script type=\"text/javascript\">
@@ -97,10 +97,10 @@ if ((isset($_POST["MM_insert"])) && ($_POST["MM_insert"] == "form1")) {
  }
 
 $query_sacado = "SELECT * FROM sacado ORDER BY `sac_nome` ASC";
-$sacado = mysqli_query($conexao,$query_sacado) or die(mysqli_error());
+$sacado = mysqli_query(db_connect(),$query_sacado) or die(mysqli_error());
 
 $query_password = "SELECT * FROM password where especialista='S'";
-$password = mysqli_query($conexao,$query_password) or die(mysqli_error());
+$password = mysqli_query(db_connect(),$query_password) or die(mysqli_error());
 ?>
 <script language="javascript">
 function enviardados(){

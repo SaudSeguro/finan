@@ -101,5 +101,5 @@ $(document).ready( function() {
 </html>
 <?php
 //require_once('backup.php');
-mysqli_close($conexao);
+mysqli_close(db_connect());
 ?>

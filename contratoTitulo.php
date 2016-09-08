@@ -8,7 +8,7 @@ if (isset($_GET['idTitulo'])) {
 }
 
 $query_res = sprintf("SELECT * FROM titulos AS t INNER JOIN sacado AS s ON t.sac_id=s.sac_id WHERE t.titulo_id = %s", $colname_res);
-$res = mysqli_query($conexao,$query_res) or die(mysqli_error());
+$res = mysqli_query(db_connect(),$query_res) or die(mysqli_error());
 $row_res = mysqli_fetch_assoc($res);
 $totalRows_res = mysqli_num_rows($res);
 
@@ -18,7 +18,7 @@ if (isset($_GET['idParcela'])) {
 
 $query_par = sprintf("SELECT * FROM parcela_titulo WHERE id_parcela = '%s'", $colname_par);
 
-$par = mysqli_query($conexao,$query_par) or die(mysqli_error());
+$par = mysqli_query(db_connect(),$query_par) or die(mysqli_error());
 
 $row_par = mysqli_fetch_assoc($par);                 
 		
